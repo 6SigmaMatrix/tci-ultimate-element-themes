@@ -1,0 +1,59 @@
+@font-face {
+	font-family: "TCI_UET_ICONS";
+	src: url("../fonts/tci-uet-icons.eot");
+	src: url("../fonts/tci-uet-icons.eot?#iefix") format("embedded-opentype"),
+	url("../fonts/tci-uet-icons.woff2") format("woff2"),
+	url("../fonts/tci-uet-icons.woff") format("woff"),
+	url("../fonts/tci-uet-icons.ttf") format("truetype"),
+	url("../fonts/tci-uet-icons.svg#TCI_UET_ICONS") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+	@font-face {
+		font-family: "TCI_UET_ICONS";
+		src: url("../fonts/tci-uet-icons.svg#TCI_UET_ICONS") format("svg");
+	}
+}
+
+.tci:before,
+.tci:after {
+	font-family: TCI_UET_ICONS;
+	font-size: 35px;
+	font-style: normal;
+}
+
+.elementor-navigator__element__element-type > .tci:before,
+.elementor-navigator__element__element-type > .tci:after {
+	font-size: 18px;
+}
+
+.tci-uet-contact-form:before { content: "\f100"; }
+.tci-uet-menu:before { content: "\f101"; }
+.tci-uet-gallery:before { content: "\f102"; }
+.tci-uet-gallery-1:before { content: "\f103"; }
+.tci-uet-quotation:before { content: "\f104"; }
+.tci-uet-update:before { content: "\f105"; }
+.tci-uet-menu-1:before { content: "\f106"; }
+.tci-uet-blogging:before { content: "\f107"; }
+.tci-uet-typography:before { content: "\f108"; }
+.tci-uet-google:before { content: "\f109"; }
+.tci-uet-pricing:before { content: "\f10a"; }
+.tci-uet-connector:before { content: "\f10b"; }
+.tci-uet-www:before { content: "\f10c"; }
+.tci-uet-font-1:before { content: "\f10d"; }
+.tci-uet-list:before { content: "\f10e"; }
+.tci-uet-edition:before { content: "\f10f"; }
+.tci-uet-layout:before { content: "\f110"; }
+.tci-uet-abc-block:before { content: "\f111"; }
+.tci-uet-social-media:before { content: "\f112"; }
+.tci-uet-facebook:before { content: "\f113"; }
+.tci-uet-bullhorn:before { content: "\f114"; }
+.tci-uet-money:before { content: "\f115"; }
+.tci-uet-stamp:before { content: "\f116"; }
+.tci-uet-refresh:before { content: "\f117"; }
+.tci-uet-ninja:before { content: "\f118"; }
+.tci-uet-bear:before { content: "\f119"; }
+.tci-uet-volcano:before { content: "\f11a"; }
+.tci-uet-edit:before { content: "\f11b"; }

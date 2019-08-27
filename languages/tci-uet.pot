@@ -1,0 +1,2492 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"Project-Id-Version: TCI Ultimate Element Themes\n"
+"POT-Creation-Date: 2019-08-20 01:17+0500\n"
+"PO-Revision-Date: 2019-08-20 01:16+0500\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.1\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: tci-ultimate-elementor-themes.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/class-tci-ajax.php:99
+msgid "No plugin specified"
+msgstr ""
+
+#: classes/class-tci-ajax.php:123
+msgid "Plugin Successfully Activated"
+msgstr ""
+
+#: classes/class-tci-custom-css-module.php:48
+msgid "TCI UET Custom CSS"
+msgstr ""
+
+#: classes/class-tci-custom-css-module.php:55
+msgid "Add your own custom CSS here"
+msgstr ""
+
+#: classes/class-tci-custom-css-module.php:63
+msgid "Custom CSS"
+msgstr ""
+
+#: classes/class-tci-custom-css-module.php:73
+msgid ""
+"Use \"selector\" to target wrapper element. Examples:<br>selector {color: "
+"red;} // For main element<br>selector .child-element {margin: 10px;} // For "
+"child element<br>.my-class {text-align: center;} // Or use any custom "
+"selector"
+msgstr ""
+
+#: classes/class-tci-elementor.php:58
+#, php-format
+msgid "\"%1$s\" requires \"%2$s\" to be installed and activated."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+#: classes/class-tci-elementor.php:59
+msgid "TCI Ultimate Element Themes"
+msgstr ""
+
+#: classes/class-tci-elementor.php:60 inc/tci-functions.php:715
+msgid "Elementor"
+msgstr ""
+
+#: classes/class-tci-elementor.php:104
+msgid "TCI UET Widgets"
+msgstr ""
+
+#: classes/class-tci-elementor.php:108
+msgid "TCI UET Single Widgets"
+msgstr ""
+
+#: classes/class-tci-elementor.php:112
+msgid "TCI UET Site Widgets"
+msgstr ""
+
+#: classes/class-tci-elementor.php:116
+msgid "TCI UET Plugins Widgets"
+msgstr ""
+
+#: classes/class-tci-modules.php:113
+msgid "TCI UET Post"
+msgstr ""
+
+#: classes/class-tci-modules.php:116
+msgid "TCI UET Archive"
+msgstr ""
+
+#: classes/class-tci-modules.php:119
+msgid "TCI UET Site"
+msgstr ""
+
+#: classes/class-tci-modules.php:122
+msgid "TCI UET Media"
+msgstr ""
+
+#: classes/class-tci-modules.php:125
+msgid "TCI UET Actions"
+msgstr ""
+
+#: classes/class-tci-modules.php:128
+msgid "TCI UET Author"
+msgstr ""
+
+#: classes/class-tci-modules.php:131
+msgid "TCI UET Comments"
+msgstr ""
+
+#: classes/class-tci-redux.php:95 classes/class-tci-redux.php:107
+msgid "TCI UET Options"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:43
+msgid "TCI UET Author Box"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:104
+#: classes/modules/class-tci-uet-author-info.php:17
+msgid "Author Info"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:111
+msgid "Source"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:115
+msgid "Current Author"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:116
+#: classes/elements/class-tci-uet-post-info.php:143
+#: classes/elements/class-tci-uet-post-info.php:161
+#: classes/elements/class-tci-uet-post-info.php:200
+#: classes/elements/class-tci-uet-post-info.php:335
+#: classes/elements/class-tci-uet-post-info.php:381
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:257
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:450
+#: classes/modules/class-tci-uet-current-date-time.php:39
+#: classes/modules/class-tci-uet-post-date.php:53
+#: classes/modules/class-tci-uet-post-time.php:50
+msgid "Custom"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:124
+#: classes/elements/class-tci-uet-author-box.php:142
+msgid "Profile Picture"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:127
+#: classes/elements/class-tci-uet-author-box.php:161
+#: classes/elements/class-tci-uet-author-box.php:229
+#: classes/elements/class-tci-uet-author-box.php:246
+msgid "Show"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:128
+#: classes/elements/class-tci-uet-author-box.php:162
+#: classes/elements/class-tci-uet-author-box.php:230
+#: classes/elements/class-tci-uet-author-box.php:247
+#: classes/not-ready/class-tci-sites.php:222
+msgid "Hide"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:158
+#: classes/modules/class-tci-uet-user-info.php:74
+msgid "Display Name"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:176
+#: classes/elements/class-tci-uet-author-box.php:509
+msgid "Name"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:178
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:166
+msgid "John Doe"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:190 inc/tci-functions.php:461
+msgid "HTML Tag"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:209
+#: classes/elements/class-tci-uet-author-box.php:259
+#: classes/elements/class-tci-uet-post-info.php:350
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:269
+#: classes/modules/class-tci-uet-comments-number.php:55
+msgid "Link"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:212
+#: classes/elements/class-tci-uet-post-info.php:379
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:256
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:219
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:331
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:407
+#: classes/modules/class-tci-uet-comments-number.php:59
+#: classes/modules/class-tci-uet-current-date-time.php:34
+#: classes/modules/class-tci-uet-current-date-time.php:52
+msgid "None"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:213
+#: classes/modules/class-tci-uet-author-info.php:54
+#: classes/modules/class-tci-uet-user-info.php:80
+msgid "Website"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:214
+msgid "Posts Archive"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:219
+#: classes/elements/class-tci-uet-author-box.php:265
+msgid "Link for the Author Name and Image"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:226
+#: classes/elements/class-tci-uet-author-box.php:272
+#: classes/elements/class-tci-uet-author-box.php:559
+msgid "Biography"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:243
+#: classes/elements/class-tci-uet-author-box.php:286
+msgid "Archive Button"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:261
+#: classes/elements/class-tci-uet-author-box.php:288
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:279
+msgid "https://your-link.com"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:274
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:152
+msgid ""
+"Click edit button to change this text. Lorem ipsum dolor sit amet "
+"consectetur adipiscing elit dolor"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:298
+msgid "Archive Text"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:300
+msgid "All Posts"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:307
+#: classes/elements/class-tci-uet-post-info.php:110
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:135
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:169
+msgid "Layout"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:312
+#: classes/elements/class-tci-uet-author-box.php:337
+#: classes/elements/class-tci-uet-search-form.php:249
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:124
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:189
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:424
+#: inc/tci-functions.php:485
+msgid "Left"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:316
+msgid "Above"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:320
+#: classes/elements/class-tci-uet-author-box.php:345
+#: classes/elements/class-tci-uet-search-form.php:257
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:132
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:197
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:432
+#: inc/tci-functions.php:493
+msgid "Right"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:332
+#: classes/elements/class-tci-uet-post-info.php:464
+#: classes/elements/class-tci-uet-search-form.php:243
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:120
+#: inc/tci-functions.php:481
+msgid "Alignment"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:341
+#: classes/elements/class-tci-uet-post-info.php:472
+#: classes/elements/class-tci-uet-search-form.php:253
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:128
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:193
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:394
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:428
+#: inc/tci-functions.php:489
+msgid "Center"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:358
+#: classes/modules/class-tci-uet-lightbox.php:46
+#: classes/modules/class-tci-uet-lightbox.php:56
+msgid "Image"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:366
+msgid "Vertical Align"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:371
+msgid "Top"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:375
+msgid "Middle"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:389
+msgid "Image Size"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:406
+#: classes/elements/class-tci-uet-author-box.php:542
+#: classes/elements/class-tci-uet-author-box.php:592
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:323
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:366
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:606
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:650
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:854
+msgid "Gap"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:429
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:107
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:563
+msgid "Border"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:440
+#: classes/elements/class-tci-uet-contact-form-7.php:1916
+#: classes/elements/class-tci-uet-search-form.php:387
+#: classes/elements/class-tci-uet-search-form.php:453
+msgid "Border Color"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:455
+#: classes/elements/class-tci-uet-author-box.php:711
+#: classes/elements/class-tci-uet-search-form.php:752
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:946
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1080
+msgid "Border Width"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:475
+#: classes/elements/class-tci-uet-author-box.php:732
+#: classes/elements/class-tci-uet-contact-form-7.php:221
+#: classes/elements/class-tci-uet-contact-form-7.php:344
+#: classes/elements/class-tci-uet-contact-form-7.php:386
+#: classes/elements/class-tci-uet-contact-form-7.php:489
+#: classes/elements/class-tci-uet-contact-form-7.php:531
+#: classes/elements/class-tci-uet-contact-form-7.php:634
+#: classes/elements/class-tci-uet-contact-form-7.php:676
+#: classes/elements/class-tci-uet-contact-form-7.php:779
+#: classes/elements/class-tci-uet-contact-form-7.php:821
+#: classes/elements/class-tci-uet-contact-form-7.php:924
+#: classes/elements/class-tci-uet-contact-form-7.php:966
+#: classes/elements/class-tci-uet-contact-form-7.php:1069
+#: classes/elements/class-tci-uet-contact-form-7.php:1111
+#: classes/elements/class-tci-uet-contact-form-7.php:1214
+#: classes/elements/class-tci-uet-contact-form-7.php:1256
+#: classes/elements/class-tci-uet-contact-form-7.php:1359
+#: classes/elements/class-tci-uet-contact-form-7.php:1401
+#: classes/elements/class-tci-uet-contact-form-7.php:1476
+#: classes/elements/class-tci-uet-contact-form-7.php:1549
+#: classes/elements/class-tci-uet-contact-form-7.php:1650
+#: classes/elements/class-tci-uet-contact-form-7.php:1692
+#: classes/elements/class-tci-uet-contact-form-7.php:1805
+#: classes/elements/class-tci-uet-contact-form-7.php:1864
+#: classes/elements/class-tci-uet-contact-form-7.php:2099
+#: classes/elements/class-tci-uet-contact-form-7.php:2208
+#: classes/elements/class-tci-uet-search-form.php:498
+#: classes/elements/class-tci-uet-search-form.php:769
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:412
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:733
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:783
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:704
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:874
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1096
+msgid "Border Radius"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:501
+#: classes/elements/class-tci-uet-post-info.php:672
+#: classes/elements/class-tci-uet-search-form.php:157
+#: classes/elements/class-tci-uet-search-form.php:170
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:225
+msgid "Text"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:518
+#: classes/elements/class-tci-uet-author-box.php:568
+#: classes/elements/class-tci-uet-author-box.php:673
+#: classes/elements/class-tci-uet-post-info.php:605
+#: classes/elements/class-tci-uet-post-info.php:634
+#: classes/elements/class-tci-uet-search-form.php:680
+#: classes/elements/class-tci-uet-search-form.php:711
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:446
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:583
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:627
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:822
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1004
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1036
+msgid "Color"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:621
+#: classes/elements/class-tci-uet-contact-form-7.php:321
+#: classes/elements/class-tci-uet-contact-form-7.php:466
+#: classes/elements/class-tci-uet-contact-form-7.php:611
+#: classes/elements/class-tci-uet-contact-form-7.php:756
+#: classes/elements/class-tci-uet-contact-form-7.php:901
+#: classes/elements/class-tci-uet-contact-form-7.php:1046
+#: classes/elements/class-tci-uet-contact-form-7.php:1191
+#: classes/elements/class-tci-uet-contact-form-7.php:1336
+#: classes/elements/class-tci-uet-contact-form-7.php:1627
+#: classes/elements/class-tci-uet-contact-form-7.php:1766
+#: classes/elements/class-tci-uet-contact-form-7.php:1956
+#: classes/elements/class-tci-uet-search-form.php:346
+#: classes/elements/class-tci-uet-search-form.php:547
+#: classes/elements/class-tci-uet-search-form.php:673
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:462
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:576
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:707
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:479
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:745
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:997
+#: inc/tci-functions.php:554 inc/tci-functions.php:945
+msgid "Normal"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:628
+#: classes/elements/class-tci-uet-contact-form-7.php:232
+#: classes/elements/class-tci-uet-contact-form-7.php:1783
+#: classes/elements/class-tci-uet-contact-form-7.php:1842
+#: classes/elements/class-tci-uet-contact-form-7.php:1901
+#: classes/elements/class-tci-uet-contact-form-7.php:1962
+#: classes/elements/class-tci-uet-contact-form-7.php:1986
+#: classes/elements/class-tci-uet-contact-form-7.php:2077
+#: classes/elements/class-tci-uet-contact-form-7.php:2187
+#: classes/elements/class-tci-uet-post-excerpt.php:120
+#: classes/elements/class-tci-uet-post-info.php:697
+#: classes/elements/class-tci-uet-search-form.php:353
+#: classes/elements/class-tci-uet-search-form.php:424
+#: classes/elements/class-tci-uet-search-form.php:554
+#: classes/elements/class-tci-uet-search-form.php:589
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:300
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:343
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:489
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:534
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:486
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:511
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:532
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:581
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:752
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:786
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:825
+#: inc/tci-functions.php:518
+msgid "Text Color"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:644
+#: classes/elements/class-tci-uet-author-box.php:688
+#: classes/elements/class-tci-uet-contact-form-7.php:204
+#: classes/elements/class-tci-uet-contact-form-7.php:327
+#: classes/elements/class-tci-uet-contact-form-7.php:369
+#: classes/elements/class-tci-uet-contact-form-7.php:472
+#: classes/elements/class-tci-uet-contact-form-7.php:514
+#: classes/elements/class-tci-uet-contact-form-7.php:617
+#: classes/elements/class-tci-uet-contact-form-7.php:659
+#: classes/elements/class-tci-uet-contact-form-7.php:762
+#: classes/elements/class-tci-uet-contact-form-7.php:804
+#: classes/elements/class-tci-uet-contact-form-7.php:907
+#: classes/elements/class-tci-uet-contact-form-7.php:949
+#: classes/elements/class-tci-uet-contact-form-7.php:1052
+#: classes/elements/class-tci-uet-contact-form-7.php:1094
+#: classes/elements/class-tci-uet-contact-form-7.php:1197
+#: classes/elements/class-tci-uet-contact-form-7.php:1239
+#: classes/elements/class-tci-uet-contact-form-7.php:1342
+#: classes/elements/class-tci-uet-contact-form-7.php:1384
+#: classes/elements/class-tci-uet-contact-form-7.php:1633
+#: classes/elements/class-tci-uet-contact-form-7.php:1675
+#: classes/elements/class-tci-uet-contact-form-7.php:1772
+#: classes/elements/class-tci-uet-contact-form-7.php:1831
+#: classes/elements/class-tci-uet-contact-form-7.php:1890
+#: classes/elements/class-tci-uet-contact-form-7.php:2066
+#: classes/elements/class-tci-uet-contact-form-7.php:2177
+#: classes/elements/class-tci-uet-search-form.php:372
+#: classes/elements/class-tci-uet-search-form.php:438
+#: classes/elements/class-tci-uet-search-form.php:565
+#: classes/elements/class-tci-uet-search-form.php:600
+#: classes/elements/class-tci-uet-search-form.php:691
+#: classes/elements/class-tci-uet-search-form.php:722
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:472
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:515
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:714
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:764
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:764
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:801
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:837
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1016
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1048
+msgid "Background Color"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:666
+#: classes/elements/class-tci-uet-contact-form-7.php:1884
+#: classes/elements/class-tci-uet-search-form.php:582
+#: classes/elements/class-tci-uet-search-form.php:704
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:505
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:620
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:757
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:504
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:779
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1029
+msgid "Hover"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:699
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:236
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:257
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:278
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:305
+msgid "Animation"
+msgstr ""
+
+#: classes/elements/class-tci-uet-author-box.php:753
+#: classes/elements/class-tci-uet-contact-form-7.php:193
+#: classes/elements/class-tci-uet-contact-form-7.php:309
+#: classes/elements/class-tci-uet-contact-form-7.php:454
+#: classes/elements/class-tci-uet-contact-form-7.php:599
+#: classes/elements/class-tci-uet-contact-form-7.php:744
+#: classes/elements/class-tci-uet-contact-form-7.php:889
+#: classes/elements/class-tci-uet-contact-form-7.php:1034
+#: classes/elements/class-tci-uet-contact-form-7.php:1179
+#: classes/elements/class-tci-uet-contact-form-7.php:1324
+#: classes/elements/class-tci-uet-contact-form-7.php:1458
+#: classes/elements/class-tci-uet-contact-form-7.php:1531
+#: classes/elements/class-tci-uet-contact-form-7.php:1615
+#: classes/elements/class-tci-uet-contact-form-7.php:1753
+#: classes/elements/class-tci-uet-contact-form-7.php:2054
+#: classes/elements/class-tci-uet-contact-form-7.php:2166
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:694
+msgid "Padding"
+msgstr ""
+
+#: classes/elements/class-tci-uet-caldera-forms.php:38
+msgid "TCI UET Caldera Forms"
+msgstr ""
+
+#: classes/elements/class-tci-uet-caldera-forms.php:88
+#: classes/elements/class-tci-uet-contact-form-7.php:95
+#: classes/elements/class-tci-uet-formidable-forms.php:88
+#: classes/elements/class-tci-uet-ninja-forms.php:88
+#: classes/elements/class-tci-uet-revolution-slider.php:88
+#: classes/elements/class-tci-uet-wpforms.php:77
+msgid "Warning!"
+msgstr ""
+
+#: classes/elements/class-tci-uet-caldera-forms.php:95
+msgid ""
+"<strong>Caldera</strong> is not installed/activated on your site. Please "
+"install and activate <strong>Caldera</strong> first."
+msgstr ""
+
+#: classes/elements/class-tci-uet-caldera-forms.php:109
+msgid "Caldera"
+msgstr ""
+
+#: classes/elements/class-tci-uet-caldera-forms.php:117
+#: classes/elements/class-tci-uet-contact-form-7.php:147
+#: classes/elements/class-tci-uet-formidable-forms.php:117
+#: classes/elements/class-tci-uet-ninja-forms.php:117
+#: classes/elements/class-tci-uet-wpforms.php:106
+msgid "Forms List"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:45
+msgid "TCI UET Contact Forms 7"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:102
+msgid ""
+"<strong>Contact Form 7</strong> is not installed/activated on your site. "
+"Please install and activate <strong>Contact Form 7</strong> first."
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:140
+msgid "Contact Form 7"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:166
+msgid "Label Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:173
+#: classes/elements/class-tci-uet-contact-form-7.php:289
+#: classes/elements/class-tci-uet-contact-form-7.php:434
+#: classes/elements/class-tci-uet-contact-form-7.php:579
+#: classes/elements/class-tci-uet-contact-form-7.php:724
+#: classes/elements/class-tci-uet-contact-form-7.php:869
+#: classes/elements/class-tci-uet-contact-form-7.php:1014
+#: classes/elements/class-tci-uet-contact-form-7.php:1159
+#: classes/elements/class-tci-uet-contact-form-7.php:1304
+#: classes/elements/class-tci-uet-contact-form-7.php:1438
+#: classes/elements/class-tci-uet-contact-form-7.php:1511
+#: classes/elements/class-tci-uet-contact-form-7.php:1595
+#: classes/elements/class-tci-uet-contact-form-7.php:1729
+#: classes/elements/class-tci-uet-contact-form-7.php:2030
+#: classes/elements/class-tci-uet-contact-form-7.php:2144
+#: classes/elements/class-tci-uet-post-info.php:547
+#: classes/elements/class-tci-uet-search-form.php:637
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:594
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:638
+msgid "Width"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:182
+#: classes/elements/class-tci-uet-contact-form-7.php:298
+#: classes/elements/class-tci-uet-contact-form-7.php:443
+#: classes/elements/class-tci-uet-contact-form-7.php:588
+#: classes/elements/class-tci-uet-contact-form-7.php:733
+#: classes/elements/class-tci-uet-contact-form-7.php:878
+#: classes/elements/class-tci-uet-contact-form-7.php:1023
+#: classes/elements/class-tci-uet-contact-form-7.php:1168
+#: classes/elements/class-tci-uet-contact-form-7.php:1313
+#: classes/elements/class-tci-uet-contact-form-7.php:1447
+#: classes/elements/class-tci-uet-contact-form-7.php:1520
+#: classes/elements/class-tci-uet-contact-form-7.php:1604
+#: classes/elements/class-tci-uet-contact-form-7.php:1741
+#: classes/elements/class-tci-uet-contact-form-7.php:2042
+#: classes/elements/class-tci-uet-contact-form-7.php:2155
+msgid "Margin"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:271
+msgid "Text Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:278
+#: classes/elements/class-tci-uet-contact-form-7.php:423
+#: classes/elements/class-tci-uet-contact-form-7.php:568
+#: classes/elements/class-tci-uet-contact-form-7.php:713
+#: classes/elements/class-tci-uet-contact-form-7.php:858
+#: classes/elements/class-tci-uet-contact-form-7.php:1003
+#: classes/elements/class-tci-uet-contact-form-7.php:1148
+#: classes/elements/class-tci-uet-contact-form-7.php:1293
+#: classes/elements/class-tci-uet-contact-form-7.php:1584
+msgid "Text Indent"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:363
+#: classes/elements/class-tci-uet-contact-form-7.php:508
+#: classes/elements/class-tci-uet-contact-form-7.php:653
+#: classes/elements/class-tci-uet-contact-form-7.php:798
+#: classes/elements/class-tci-uet-contact-form-7.php:943
+#: classes/elements/class-tci-uet-contact-form-7.php:1088
+#: classes/elements/class-tci-uet-contact-form-7.php:1233
+#: classes/elements/class-tci-uet-contact-form-7.php:1378
+#: classes/elements/class-tci-uet-contact-form-7.php:1669
+#: classes/elements/class-tci-uet-contact-form-7.php:1825
+#: classes/elements/class-tci-uet-contact-form-7.php:1980
+#: classes/elements/class-tci-uet-search-form.php:417
+msgid "Focus"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:416
+msgid "Email Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:561
+msgid "URL Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:706
+msgid "Tel Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:851
+msgid "Number Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:996
+msgid "Date Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1141
+msgid "Textarea Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1286
+msgid "Select Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1431
+msgid "Checkbox/Accept Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1504
+msgid "Radio Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1577
+msgid "File Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1722
+msgid "Submit Field Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:1948
+msgid "Fields Typography"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:2023
+msgid "Errors Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-contact-form-7.php:2137
+msgid "Thank You Message Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-formidable-forms.php:38
+msgid "TCI UET Formidable Forms"
+msgstr ""
+
+#: classes/elements/class-tci-uet-formidable-forms.php:95
+msgid ""
+"<strong>Formidable</strong> is not installed/activated on your site. Please "
+"install and activate <strong>Formidable</strong> first."
+msgstr ""
+
+#: classes/elements/class-tci-uet-formidable-forms.php:109
+msgid "Formidable"
+msgstr ""
+
+#: classes/elements/class-tci-uet-ninja-forms.php:38
+msgid "TCI UET Ninja Forms"
+msgstr ""
+
+#: classes/elements/class-tci-uet-ninja-forms.php:95
+msgid ""
+"<strong>Ninja Forms</strong> is not installed/activated on your site. Please "
+"install and activate <strong>Ninja Forms</strong> first."
+msgstr ""
+
+#: classes/elements/class-tci-uet-ninja-forms.php:109
+msgid "Ninja Forms"
+msgstr ""
+
+#: classes/elements/class-tci-uet-page-title.php:38
+msgid "TCI UET Page Title"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-excerpt.php:42
+msgid "TCI UET Post Excerpt"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-excerpt.php:91
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:147
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:292
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:63
+msgid "Content"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-excerpt.php:112
+#: classes/elements/class-tci-uet-post-info.php:501
+msgid "Style"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-featured-image.php:38
+msgid "TCI UET Post Featured Image"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:42
+msgid "TCI UET Post Info"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:103
+msgid "Meta Data"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:115
+#: classes/elements/class-tci-uet-post-info.php:380
+#: classes/modules/class-tci-uet-current-date-time.php:33
+#: classes/modules/class-tci-uet-current-date-time.php:51
+#: classes/modules/class-tci-uet-post-date.php:47
+#: classes/modules/class-tci-uet-post-time.php:46 inc/tci-functions.php:448
+#: inc/tci-functions.php:714
+msgid "Default"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:119
+msgid "Inline"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:134
+#: classes/elements/class-tci-uet-search-form.php:152
+#: classes/modules/class-tci-uet-contact-url.php:31
+#: classes/modules/class-tci-uet-lightbox.php:37
+#: classes/modules/class-tci-uet-post-date.php:31
+#: classes/modules/class-tci-uet-post-time.php:30
+#: classes/modules/class-tci-uet-request-parameter.php:63
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:60
+msgid "Type"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:138
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:161
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:335
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:66
+msgid "Author"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:139
+msgid "Date"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:140
+msgid "Time"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:141
+#: classes/elements/class-tci-uet-post-info.php:321
+msgid "Comments"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:142
+msgid "Terms"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:151
+#: classes/modules/class-tci-uet-current-date-time.php:30
+msgid "Date Format"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:157
+msgctxt "Date Format"
+msgid "March 6, 2018 (F j, Y)"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:172
+msgid "Custom Date Format"
+msgstr ""
+
+#. translators: %s: Allowed data letters (see: http://php.net/manual/en/function.date.php).
+#. translators: %s: Allowed time letters (see: http://php.net/manual/en/function.time.php).
+#: classes/elements/class-tci-uet-post-info.php:182
+#: classes/elements/class-tci-uet-post-info.php:221
+#, php-format
+msgid "Use the letters: %s"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:191
+#: classes/modules/class-tci-uet-current-date-time.php:48
+msgid "Time Format"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:210
+msgid "Custom Time Format"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:230
+#: classes/modules/class-tci-uet-post-terms.php:56
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:64
+msgid "Taxonomy"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:244
+msgid "Before"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:256
+msgid "Avatar"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:267
+#: classes/elements/class-tci-uet-post-info.php:650
+#: classes/elements/class-tci-uet-search-form.php:210
+#: classes/elements/class-tci-uet-search-form.php:273
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:394
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:833
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1063
+#: inc/tci-functions.php:444
+msgid "Size"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:281
+#: classes/modules/class-tci-uet-current-date-time.php:67
+#: classes/modules/class-tci-uet-post-date.php:62
+#: classes/modules/class-tci-uet-post-time.php:59
+msgid "Custom Format"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:293
+#: classes/elements/class-tci-uet-post-info.php:296
+#: classes/elements/class-tci-uet-post-info.php:811
+msgid "No Comments"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:307
+#: classes/elements/class-tci-uet-post-info.php:310
+#: classes/elements/class-tci-uet-post-info.php:812
+msgid "One Comment"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:324
+#: classes/elements/class-tci-uet-post-info.php:813
+#, php-format
+msgid "%s Comments"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:362
+msgid "Custom URL"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:376
+#: classes/elements/class-tci-uet-post-info.php:626
+#: classes/elements/class-tci-uet-search-form.php:156
+#: classes/elements/class-tci-uet-search-form.php:184
+msgid "Icon"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:393
+msgid "Choose Icon"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:435
+msgid "List"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:443
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:685
+msgid "Space Between"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:468
+#: classes/modules/class-tci-uet-contact-url.php:209
+msgid "Start"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:476
+#: classes/modules/class-tci-uet-contact-url.php:224
+msgid "End"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:487
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:928
+msgid "Divider"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:489
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:178
+msgid "Off"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:490
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:177
+msgid "On"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:504
+msgid "Solid"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:505
+msgid "Double"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:506
+msgid "Dotted"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:507
+msgid "Dashed"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:523
+msgid "Weight"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:576
+msgid "Height"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:680
+msgid "Indent"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-info.php:734
+#: classes/modules/class-tci-uet-user-info.php:72
+msgid "Choose"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-loop.php:38
+msgid "TCI UET Post Loop"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-loop.php:102
+msgid "Template Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-loop.php:110
+msgid "Elementor Template"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-loop.php:121
+msgid "Column Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-loop.php:131
+msgid "Query Settings"
+msgstr ""
+
+#: classes/elements/class-tci-uet-post-title.php:38
+msgid "TCI UET Post Title"
+msgstr ""
+
+#: classes/elements/class-tci-uet-revolution-slider.php:38
+msgid "TCI UET Revolution Slider"
+msgstr ""
+
+#: classes/elements/class-tci-uet-revolution-slider.php:95
+msgid ""
+"<strong>Revolution Slider</strong> is not installed/activated on your site. "
+"Please install and activate <strong>Revolution Slider</strong> first."
+msgstr ""
+
+#: classes/elements/class-tci-uet-revolution-slider.php:109
+msgid "Revolution Slider"
+msgstr ""
+
+#: classes/elements/class-tci-uet-revolution-slider.php:117
+msgid "Slider List"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:42
+msgid "TCI UET Search Form"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:106
+msgid "Search Form"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:113
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:104
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:206
+msgid "Skin"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:117
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:332
+msgid "Classic"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:118
+msgid "Minimal"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:119
+msgid "Full Screen"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:130
+msgid "Placeholder"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:133
+#: classes/elements/class-tci-uet-search-form.php:172
+#: classes/elements/class-tci-uet-search-form.php:190
+#: classes/elements/class-tci-uet-search-form.php:797
+#: classes/elements/class-tci-uet-search-form.php:820
+#: classes/elements/class-tci-uet-search-form.php:827
+#: classes/elements/class-tci-uet-search-form.php:835
+#: classes/elements/class-tci-uet-search-form.php:876
+#: classes/elements/class-tci-uet-search-form.php:883
+#: classes/elements/class-tci-uet-search-form.php:888
+msgid "Search"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:140
+#: classes/elements/class-tci-uet-search-form.php:522
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:386
+msgid "Button"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:194
+msgid "Arrow"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:231
+#: classes/elements/class-tci-uet-search-form.php:660
+msgid "Toggle"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:292
+msgid "Input"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:300
+#: classes/elements/class-tci-uet-search-form.php:615
+#: classes/elements/class-tci-uet-search-form.php:737
+msgid "Icon Size"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:321
+msgid "Overlay Color"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:485
+msgid "Border Size"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:844 inc/tci-admin-page.php:66
+msgid "Close"
+msgstr ""
+
+#: classes/elements/class-tci-uet-search-form.php:896
+msgid "Submit"
+msgstr ""
+
+#: classes/elements/class-tci-uet-site-title.php:38
+msgid "TCI UET Site Title"
+msgstr ""
+
+#: classes/elements/class-tci-uet-wpforms.php:38
+msgid "TCI UET WPForms"
+msgstr ""
+
+#: classes/elements/class-tci-uet-wpforms.php:84
+msgid ""
+"<strong>WPForms</strong> is not installed/activated on your site. Please "
+"install and activate <strong>WPForms</strong> first."
+msgstr ""
+
+#: classes/elements/class-tci-uet-wpforms.php:98
+msgid "WPForms"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-archive-title.php:34
+msgid "TCI UET Archive Title"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:48
+msgid "TCI UET Blockquote"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:97
+msgid "Blockquote"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:108
+msgid "Quotation"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:109
+msgid "Boxed"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:110
+msgid "Clean"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:153
+msgid "Enter your quote"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:175
+msgid "Tweet Button"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:186
+msgid "View"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:225
+msgid "Label"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:227
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:924
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:955
+msgid "Tweet"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:239
+#: classes/modules/class-tci-uet-contact-url.php:104
+#: classes/modules/class-tci-uet-user-info.php:75
+msgid "Username"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:252
+msgid "Target URL"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:255
+msgid "Current Page"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:449
+msgid "Official"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:666
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:668
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:912
+msgid "Vertical Padding"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:683
+msgid "Box"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-blockquote.php:811
+msgid "Quote"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:46
+msgid "TCI UET Nav Menu"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:145
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:1185
+msgid "Menu"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:151
+#, php-format
+msgid ""
+"Go to the <a href=\"%s\" target=\"_blank\">Menus screen</a> to manage your "
+"menus."
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:159
+#, php-format
+msgid ""
+"<strong>There are no menus in your site.</strong><br>Go to the <a href=\"%s"
+"\" target=\"_blank\">Menus screen</a> to create one."
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:173
+msgid "Horizontal"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:174
+msgid "Vertical"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:175
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:726
+msgid "Dropdown"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:184
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:389
+msgid "Align"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:201
+msgid "Stretch"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:215
+msgid "Pointer"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:220
+msgid "Underline"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:221
+msgid "Overline"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:222
+msgid "Double Line"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:223
+msgid "Framed"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:224
+msgid "Background"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:327
+msgid "Submenu Indicator"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:333
+msgid "Chevron"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:334
+msgid "Angle"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:335
+msgid "Plus"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:344
+msgid "Mobile Dropdown"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:358
+msgid "Breakpoint"
+msgstr ""
+
+#. translators: %d: Breakpoint number.
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:363
+#, php-format
+msgid "Mobile (< %dpx)"
+msgstr ""
+
+#. translators: %d: Breakpoint number.
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:365
+#, php-format
+msgid "Tablet (< %dpx)"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:377
+msgid "Full Width"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:379
+msgid "Stretch the dropdown of the menu to full width."
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:393
+msgid "Aside"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:403
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:984
+msgid "Toggle Button"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:408
+msgid "Hamburger"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:419
+msgid "Toggle Align"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:456
+msgid "Main Menu"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:550
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:593
+msgid "Pointer Color"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:574
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:818
+#: classes/not-ready/class-tci-sites.php:216
+msgid "Active"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:623
+msgid "Pointer Width"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:651
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:899
+msgid "Horizontal Padding"
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:734
+msgid ""
+"On desktop, this will affect the submenu. On mobile, this will affect the "
+"entire menu."
+msgstr ""
+
+#: classes/elements/not-ready/class-tci-uet-nav-menu.php:965
+msgid "Distance"
+msgstr ""
+
+#: classes/elements/tci-uet-site-logo.php:39
+msgid "TCI UET Site Logo"
+msgstr ""
+
+#: classes/modules/class-tci-uet-archive-description.php:15
+msgid "Archive Description"
+msgstr ""
+
+#: classes/modules/class-tci-uet-archive-meta.php:15
+msgid "Archive Meta"
+msgstr ""
+
+#: classes/modules/class-tci-uet-archive-meta.php:56
+#: classes/modules/class-tci-uet-author-meta.php:45
+#: classes/modules/class-tci-uet-user-info.php:89
+msgid "Meta Key"
+msgstr ""
+
+#: classes/modules/class-tci-uet-archive-title.php:16
+msgid "Archive Title"
+msgstr ""
+
+#: classes/modules/class-tci-uet-archive-title.php:39
+#: classes/modules/class-tci-uet-page-title.php:42
+msgid "Include Context"
+msgstr ""
+
+#: classes/modules/class-tci-uet-archive-url.php:23
+msgid "Archive URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-info.php:48
+#: classes/modules/class-tci-uet-user-info.php:69
+msgid "Field"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-info.php:52
+#: classes/modules/class-tci-uet-user-info.php:78
+msgid "Bio"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-info.php:53
+#: classes/modules/class-tci-uet-contact-url.php:35
+#: classes/modules/class-tci-uet-contact-url.php:53
+#: classes/modules/class-tci-uet-user-info.php:79
+msgid "Email"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-meta.php:15
+msgid "Author Meta"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-name.php:15
+msgid "Author Name"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-profile-picture.php:15
+msgid "Author Profile Picture"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-url.php:24
+msgid "Author URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-url.php:51
+msgid "URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-url.php:55
+msgid "Author Archive"
+msgstr ""
+
+#: classes/modules/class-tci-uet-author-url.php:56
+msgid "Author Website"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:16
+msgid "Comments Number"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:31
+msgid "No Comments Format"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:32
+msgid "No Responses"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:39
+msgid "One Comment Format"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:40
+msgid "One Response"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:47
+msgid "Many Comment Format"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:48
+msgid "{number} Responses"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-number.php:60
+msgid "Comments Link"
+msgstr ""
+
+#: classes/modules/class-tci-uet-comments-url.php:15
+msgid "Comments URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:16
+msgid "Contact URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:34
+msgid "Select"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:36
+msgid "Tel"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:37
+msgid "SMS"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:38
+msgid "WhatsApp"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:39
+msgid "Skype"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:40
+msgid "Messenger"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:41
+msgid "Viber"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:42
+msgid "Waze"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:43
+msgid "Google Calendar"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:44
+msgid "Outlook Calendar"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:45
+msgid "Yahoo Calendar"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:64
+msgid "Subject"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:76
+msgid "Message"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:88
+msgid "Number"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:115
+#: classes/modules/class-tci-uet-contact-url.php:131
+msgid "Action"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:118
+msgid "Contact"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:119
+msgid "Add"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:134
+msgid "Call"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:135
+msgid "Chat"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:136
+msgid "Show Profile"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:137
+msgid "Add to Contacts"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:138
+msgid "Send Voice Mail"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:150
+#: classes/modules/class-tci-uet-contact-url.php:193
+msgid "Location"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:162
+#: classes/modules/class-tci-uet-featured-image-data.php:84
+msgid "Title"
+msgstr ""
+
+#: classes/modules/class-tci-uet-contact-url.php:178
+#: classes/modules/class-tci-uet-featured-image-data.php:87
+msgid "Description"
+msgstr ""
+
+#: classes/modules/class-tci-uet-current-date-time.php:15
+msgid "Current Date Time"
+msgstr ""
+
+#: classes/modules/class-tci-uet-current-date-time.php:69
+#: classes/modules/class-tci-uet-post-date.php:64
+#: classes/modules/class-tci-uet-post-time.php:61
+msgid "Documentation on date and time formatting"
+msgstr ""
+
+#: classes/modules/class-tci-uet-featured-image-data.php:28
+msgid "Featured Image Data"
+msgstr ""
+
+#: classes/modules/class-tci-uet-featured-image-data.php:80
+msgid "Data"
+msgstr ""
+
+#: classes/modules/class-tci-uet-featured-image-data.php:85
+msgid "Alt"
+msgstr ""
+
+#: classes/modules/class-tci-uet-featured-image-data.php:86
+msgid "Caption"
+msgstr ""
+
+#: classes/modules/class-tci-uet-featured-image-data.php:88
+msgid "File URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-featured-image-data.php:89
+msgid "Attachment URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-lightbox.php:18
+msgid "Lightbox"
+msgstr ""
+
+#: classes/modules/class-tci-uet-lightbox.php:42
+msgid "Video"
+msgstr ""
+
+#: classes/modules/class-tci-uet-lightbox.php:67
+msgid "Video URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-page-title.php:15
+msgid "Page Title"
+msgstr ""
+
+#: classes/modules/class-tci-uet-page-title.php:50
+msgid "Show Home Title"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-custom-field.php:17
+msgid "Post Custom Field"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-custom-field.php:44
+msgid "Key"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-custom-field.php:66
+msgid "Select..."
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-date.php:16 inc/tci-functions.php:258
+msgid "Post Date"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-date.php:34
+#: classes/modules/class-tci-uet-post-time.php:33
+msgid "Post Published"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-date.php:35
+#: classes/modules/class-tci-uet-post-time.php:34
+msgid "Post Modified"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-date.php:44
+#: classes/modules/class-tci-uet-post-time.php:43
+msgid "Format"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-date.php:52
+msgid "Human Readable"
+msgstr ""
+
+#. translators: %s: Human readable date/time.
+#: classes/modules/class-tci-uet-post-date.php:78
+#, php-format
+msgid "%s ago"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-excerpt.php:14
+msgid "Post Excerpt"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-featured-image.php:25
+msgid "Featured Image"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-featured-image.php:47
+msgid "Fallback"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-gallery.php:15
+msgid "Post Image Attachments"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-id.php:14 inc/tci-functions.php:250
+msgid "Post ID"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-terms.php:15
+msgid "Post Terms"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-terms.php:66
+msgid "Separator"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-time.php:15
+msgid "Post Time"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-title.php:30 inc/tci-functions.php:254
+msgid "Post Title"
+msgstr ""
+
+#: classes/modules/class-tci-uet-post-url.php:15
+msgid "Post URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-request-parameter.php:15
+msgid "Request Parameter"
+msgstr ""
+
+#: classes/modules/class-tci-uet-request-parameter.php:76
+msgid "Parameter Name"
+msgstr ""
+
+#: classes/modules/class-tci-uet-shortcode.php:15
+#: classes/modules/class-tci-uet-shortcode.php:37
+msgid "Shortcode"
+msgstr ""
+
+#: classes/modules/class-tci-uet-site-logo.php:15
+msgid "Site Logo"
+msgstr ""
+
+#: classes/modules/class-tci-uet-site-tagline.php:14
+msgid "Site Tagline"
+msgstr ""
+
+#: classes/modules/class-tci-uet-site-title.php:14
+msgid "Site Title"
+msgstr ""
+
+#: classes/modules/class-tci-uet-site-url.php:15
+msgid "Site URL"
+msgstr ""
+
+#: classes/modules/class-tci-uet-user-info.php:16
+msgid "User Info"
+msgstr ""
+
+#: classes/modules/class-tci-uet-user-info.php:73
+msgid "ID"
+msgstr ""
+
+#: classes/modules/class-tci-uet-user-info.php:76
+msgid "First Name"
+msgstr ""
+
+#: classes/modules/class-tci-uet-user-info.php:77
+msgid "Last Name"
+msgstr ""
+
+#: classes/modules/class-tci-uet-user-info.php:81
+msgid "User Meta"
+msgstr ""
+
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:28
+msgid "Internal URL"
+msgstr ""
+
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:65
+msgid "Media"
+msgstr ""
+
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:71
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:85
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:98
+#: classes/modules/not-ready/class-tci-uet-internal-url.php:111
+msgid "Search & Select"
+msgstr ""
+
+#: classes/not-ready/class-tci-page-sites.php:74
+msgid "TCI Sites"
+msgstr ""
+
+#: classes/not-ready/class-tci-page-sites.php:180
+msgid "Settings saved successfully."
+msgstr ""
+
+#. translators: 1: theme.php file
+#: classes/not-ready/class-tci-sites.php:72
+#, php-format
+msgid ""
+"Astra Theme needs to be active for you to use currently installed \"%1$s\" "
+"plugin. <a href=\"%2$s\">Install & Activate Now</a>"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:104
+msgid "See Library"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:166
+msgid "Page Builder"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:171
+msgid "Categories"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:204
+msgid "Purchase"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:206
+msgid "Upgrade"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:211
+msgid "Error!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:212
+msgid "Error! Read Possibilities."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:214
+msgid "Done! View Site"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:215
+msgid "Activating"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:217
+msgid "Import failed."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:218
+msgid "Import failed. See error log."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:219
+msgid "Import This Site"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:220
+#: classes/not-ready/class-tci-sites.php:237
+msgid "Importing.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:221 inc/tci-admin-page.php:84
+msgid "Read more"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:223
+msgid "There was a problem receiving a response from server."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:224 inc/tci-admin-page.php:213
+msgid "No Demos found, Try a different search."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:225
+msgid ""
+"Executing Demo Import will make your site similar as ours. Please bear in "
+"mind -\n"
+"\n"
+"1. It is recommended to run import on a fresh WordPress installation.\n"
+"\n"
+"2. Importing site does not delete any pages or posts. However, it can "
+"overwrite your existing content.\n"
+"\n"
+"3. Copyrighted media will not be imported. Instead it will be replaced with "
+"placeholders."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:228
+msgid "Installing plugin "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:229
+msgid "Successfully plugin installed!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:230
+msgid "Activating plugin "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:231
+msgid "Successfully plugin activated "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:232
+msgid "Bulk plugin activation..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:233
+msgid "Successfully plugin activate - "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:234
+msgid "Error! While activating plugin  - "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:235
+msgid "Bulk plugin installation..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:236
+msgid "Site API "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:238
+msgid "Processing requests..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:239
+msgid "1) Importing \"Customizer Settings\"..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:240
+msgid "Successfully imported customizer settings!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:241
+msgid "2) Preparing \"XML\" Data..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:242
+msgid "Successfully set XML data!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:243
+msgid "3) Importing \"XML\"..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:244
+msgid "Successfully imported XML!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:245
+msgid "4) Importing \"Options\"..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:246
+msgid "Successfully imported Options!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:247
+msgid "5) Importing \"Widgets\"..."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:248
+msgid "Successfully imported Widgets!"
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:251
+msgid "Site imported successfully! visit : "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:252
+msgid "Getting Site Information.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:253
+msgid "Importing Customizer Settings.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:254
+msgid "Setting up import data.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:255
+msgid "Importing Pages, Posts & Media.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:256
+msgid "Importing Site Options.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:257
+msgid "Importing Widgets.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:258
+msgid "Import Complete.."
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:259
+msgid "Previewing "
+msgstr ""
+
+#: classes/not-ready/class-tci-sites.php:260
+msgid "See Error Log &rarr;"
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:31
+msgid "Plugin Main"
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:32
+msgid ""
+"This is TCI UET Plugin main options section to performs many actions for "
+"every extenstion."
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:40
+msgid "Plugin Logo Settings"
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:46
+msgid "Logo Image dimensions"
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:47
+msgid "Set the logo image dimensions like width and height to show on header."
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:58
+msgid "Logo Image"
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:59
+#, php-format
+msgid "Set the logo image for headers. %s"
+msgstr ""
+
+#: classes/redux/class-tci-uet-main.php:59
+msgid "Set the logo"
+msgstr ""
+
+#: inc/tci-admin-page.php:32
+msgid "Search Sites"
+msgstr ""
+
+#: inc/tci-admin-page.php:33
+msgid "Search Sites..."
+msgstr ""
+
+#: inc/tci-admin-page.php:68
+msgid "Previous"
+msgstr ""
+
+#: inc/tci-admin-page.php:71
+msgid "Next"
+msgstr ""
+
+#: inc/tci-admin-page.php:72 inc/tci-admin-page.php:94
+msgid "Install Plugins"
+msgstr ""
+
+#: inc/tci-admin-page.php:86
+msgid "Required Plugins"
+msgstr ""
+
+#: inc/tci-admin-page.php:100
+msgid "Collapse"
+msgstr ""
+
+#: inc/tci-admin-page.php:105
+msgid "Enter desktop preview mode"
+msgstr ""
+
+#: inc/tci-admin-page.php:108
+msgid "Enter tablet preview mode"
+msgstr ""
+
+#: inc/tci-admin-page.php:111
+msgid "Enter mobile preview mode"
+msgstr ""
+
+#: inc/tci-admin-page.php:118 inc/tci-admin-page.php:205
+msgid "Preview"
+msgstr ""
+
+#. translators: %1$s & %2$s are a Demo API URL
+#: inc/tci-admin-page.php:132
+#, php-format
+msgid ""
+"<p> It seems the demo data server, <i><a href=\"%1$s\">%2$s</a></i> is "
+"unreachable from your site.</p>"
+msgstr ""
+
+#: inc/tci-admin-page.php:134
+msgid ""
+"<p class=\"left-margin\"> 1. Sometimes, simple page reload fixes any "
+"temporary issues. No kidding!</p>"
+msgstr ""
+
+#: inc/tci-admin-page.php:136
+msgid ""
+"<p class=\"left-margin\"> 2. If that does not work, you will need to talk to "
+"your server administrator and check if demo server is being blocked by the "
+"firewall!</p>"
+msgstr ""
+
+#. translators: %1$s is a support link
+#: inc/tci-admin-page.php:139
+#, php-format
+msgid ""
+"<p>If that does not help, please open up a <a href=\"%1$s\" target=\"_blank"
+"\">Support Ticket</a> and we will be glad take a closer look for you.</p>"
+msgstr ""
+
+#: inc/tci-admin-page.php:195
+msgid "Details &amp; Preview"
+msgstr ""
+
+#. translators: %1$s External Link
+#: inc/tci-admin-page.php:217 inc/tci-admin-page.php:234
+#, php-format
+msgid ""
+"Don't see a site that you would like to import?<br>Please <a target=\"_blank"
+"\" href=\"%1$s\">suggest us</a>!"
+msgstr ""
+
+#: inc/tci-functions.php:207
+msgid "Publish"
+msgstr ""
+
+#: inc/tci-functions.php:209
+msgid "Pending"
+msgstr ""
+
+#: inc/tci-functions.php:211
+msgid "Draft"
+msgstr ""
+
+#: inc/tci-functions.php:213
+msgid "Auto Draft"
+msgstr ""
+
+#: inc/tci-functions.php:215
+msgid "Future"
+msgstr ""
+
+#: inc/tci-functions.php:217
+msgid "Private"
+msgstr ""
+
+#: inc/tci-functions.php:219
+msgid "Inherit"
+msgstr ""
+
+#: inc/tci-functions.php:221
+msgid "Trash"
+msgstr ""
+
+#: inc/tci-functions.php:234
+msgid "Descending "
+msgstr ""
+
+#: inc/tci-functions.php:235
+msgid "Ascending "
+msgstr ""
+
+#: inc/tci-functions.php:248
+msgid "No Order"
+msgstr ""
+
+#: inc/tci-functions.php:252
+msgid "Post Author"
+msgstr ""
+
+#: inc/tci-functions.php:256
+msgid "Post Name"
+msgstr ""
+
+#: inc/tci-functions.php:260
+msgid "Post Modified Date"
+msgstr ""
+
+#: inc/tci-functions.php:262
+msgid "Post Parent ID"
+msgstr ""
+
+#: inc/tci-functions.php:264
+msgid "Random"
+msgstr ""
+
+#: inc/tci-functions.php:266
+msgid "Post Comment Count"
+msgstr ""
+
+#: inc/tci-functions.php:281
+msgid "Post Type"
+msgstr ""
+
+#: inc/tci-functions.php:291
+msgid "Post Status"
+msgstr ""
+
+#: inc/tci-functions.php:302
+msgid "Exclude Post"
+msgstr ""
+
+#: inc/tci-functions.php:304
+msgid ""
+"Enter the post/page ID to stop loading those post/page. Note: IDs are comma "
+"separated."
+msgstr ""
+
+#: inc/tci-functions.php:312
+msgid "Post Count"
+msgstr ""
+
+#: inc/tci-functions.php:323
+msgid "Post offset"
+msgstr ""
+
+#: inc/tci-functions.php:334
+msgid "Post Order By"
+msgstr ""
+
+#: inc/tci-functions.php:344
+msgid "Post Order"
+msgstr ""
+
+#: inc/tci-functions.php:354
+msgid "Igonore Stikcy posts"
+msgstr ""
+
+#: inc/tci-functions.php:364
+msgid "Post Result Cache"
+msgstr ""
+
+#: inc/tci-functions.php:374
+msgid "Post Term Cache"
+msgstr ""
+
+#: inc/tci-functions.php:384
+msgid "Post Meta Cache"
+msgstr ""
+
+#: inc/tci-functions.php:401
+msgid "Post Per Row"
+msgstr ""
+
+#: inc/tci-functions.php:404
+msgid "1"
+msgstr ""
+
+#: inc/tci-functions.php:405
+msgid "2"
+msgstr ""
+
+#: inc/tci-functions.php:406
+msgid "3"
+msgstr ""
+
+#: inc/tci-functions.php:407
+msgid "4"
+msgstr ""
+
+#: inc/tci-functions.php:449 inc/tci-functions.php:940
+msgid "Small"
+msgstr ""
+
+#: inc/tci-functions.php:450
+msgid "Medium"
+msgstr ""
+
+#: inc/tci-functions.php:451 inc/tci-functions.php:950
+msgid "Large"
+msgstr ""
+
+#: inc/tci-functions.php:452
+msgid "XL"
+msgstr ""
+
+#: inc/tci-functions.php:453
+msgid "XXL"
+msgstr ""
+
+#: inc/tci-functions.php:497
+msgid "Justified"
+msgstr ""
+
+#: inc/tci-functions.php:551
+msgid "Blend Mode"
+msgstr ""
+
+#: inc/tci-functions.php:597
+msgid "done"
+msgstr ""
+
+#: inc/tci-functions.php:600
+msgid "Found error on content downloading."
+msgstr ""
+
+#: inc/tci-functions.php:726
+msgid "Text/Image"
+msgstr ""
+
+#: inc/tci-functions.php:727
+msgid "HTML Code"
+msgstr ""
+
+#: inc/tci-functions.php:955
+msgid "Huge"
+msgstr ""
+
+#: inc/tci-functions.php:965
+msgid "strong magenta"
+msgstr ""
+
+#: inc/tci-functions.php:970
+msgid "light grayish magenta"
+msgstr ""
+
+#: inc/tci-functions.php:975
+msgid "very light gray"
+msgstr ""
+
+#: inc/tci-functions.php:980
+msgid "very dark gray"
+msgstr ""
+
+#: inc/tci-functions.php:999
+msgid "TCI UET MENU"
+msgstr ""
+
+#. translators: %s: Search term.
+#: inc/tci-functions.php:1063
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#. translators: %s is the page number.
+#: inc/tci-functions.php:1067
+#, php-format
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#. translators: Category archive title. 1: Category name
+#: inc/tci-functions.php:1074
+#, php-format
+msgid "Category: %s"
+msgstr ""
+
+#. translators: Tag archive title. 1: Tag name
+#: inc/tci-functions.php:1080
+#, php-format
+msgid "Tag: %s"
+msgstr ""
+
+#. translators: Author archive title. 1: Author name
+#: inc/tci-functions.php:1087
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: inc/tci-functions.php:1090
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#. translators: Yearly archive title. 1: Year
+#: inc/tci-functions.php:1094
+#, php-format
+msgid "Year: %s"
+msgstr ""
+
+#: inc/tci-functions.php:1097
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr ""
+
+#. translators: Monthly archive title. 1: Month name and year
+#: inc/tci-functions.php:1101
+#, php-format
+msgid "Month: %s"
+msgstr ""
+
+#: inc/tci-functions.php:1104
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr ""
+
+#. translators: Daily archive title. 1: Date
+#: inc/tci-functions.php:1108
+#, php-format
+msgid "Day: %s"
+msgstr ""
+
+#: inc/tci-functions.php:1112
+msgctxt "post format archive title"
+msgid "Asides"
+msgstr ""
+
+#: inc/tci-functions.php:1114
+msgctxt "post format archive title"
+msgid "Galleries"
+msgstr ""
+
+#: inc/tci-functions.php:1116
+msgctxt "post format archive title"
+msgid "Images"
+msgstr ""
+
+#: inc/tci-functions.php:1118
+msgctxt "post format archive title"
+msgid "Videos"
+msgstr ""
+
+#: inc/tci-functions.php:1120
+msgctxt "post format archive title"
+msgid "Quotes"
+msgstr ""
+
+#: inc/tci-functions.php:1122
+msgctxt "post format archive title"
+msgid "Links"
+msgstr ""
+
+#: inc/tci-functions.php:1124
+msgctxt "post format archive title"
+msgid "Statuses"
+msgstr ""
+
+#: inc/tci-functions.php:1126
+msgctxt "post format archive title"
+msgid "Audio"
+msgstr ""
+
+#: inc/tci-functions.php:1128
+msgctxt "post format archive title"
+msgid "Chats"
+msgstr ""
+
+#. translators: Post type archive title. 1: Post type name
+#: inc/tci-functions.php:1135
+#, php-format
+msgid "Archives: %s"
+msgstr ""
+
+#. translators: Taxonomy term archive title. 1: Taxonomy singular name, 2: Current taxonomy term
+#: inc/tci-functions.php:1143
+#, php-format
+msgid "%1$s: %2$s"
+msgstr ""
+
+#: inc/tci-functions.php:1146
+msgid "Page Not Found"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://demo.themecat.org/tci-ultimate-elementor-themes"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Themecat_Info(TCI) present the TCI Ultimate Element Themes. Plugin have "
+"the unlimited elementor"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Themecat_Info"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://themecat.org/"
+msgstr ""

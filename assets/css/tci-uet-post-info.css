@@ -1,0 +1,54 @@
+.elementor-post-info__terms-list {
+	display: inline-block;
+}
+
+.elementor .elementor-element ul.elementor-icon-list-items {
+	padding: 0;
+}
+
+.elementor-post-info .elementor-icon-list-icon .elementor-avatar {
+	border-radius: 100%;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text {
+	display: inline-block;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text a, .elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text span {
+	display: inline;
+}
+
+.elementor-widget .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.elementor-widget .elementor-icon-list-items.elementor-inline-items {
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+.elementor-widget .elementor-icon-list-item a {
+	width: 100%;
+}
+
+.elementor-widget-post-info .elementor-icon-list-text, .elementor-widget-post-info .elementor-icon-list-text a {
+	color: #54595f;
+}
+
+.elementor-widget .elementor-icon-list-icon {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+.elementor-widget .elementor-icon-list-item, .elementor-widget .elementor-icon-list-item a {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}

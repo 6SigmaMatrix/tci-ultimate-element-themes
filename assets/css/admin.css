@@ -1,0 +1,351 @@
+.wrap .status,
+.wrap .site-type {
+	position: absolute;
+	z-index: 1;
+	color: #fff;
+	padding: 0.5em 1em;
+	top: -0.5em;
+	text-transform: uppercase;
+}
+
+.wrap .status,
+.wrap .site-type.premium {
+	background: #0073aa;
+}
+
+.wrap .site-type.free {
+	background: #9c27b0;
+}
+
+.wrap .status,
+.wrap .site-type.free {
+	left: -0.5em;
+}
+
+.wrap .site-type.premium {
+	right: -0.5em;
+}
+
+.wrap .status.publish {
+	display: none;
+}
+
+.install-theme-info > span.site-type.free {
+	display: none;
+}
+
+.theme {
+	position: relative;
+}
+
+.wrap .astra-sites-preview .site-type.premium {
+	display: block;
+	display: none;
+	position: relative;
+	margin: 0.5em 0em 1em 0em;
+	top: 0;
+	left: 0;
+	text-align: center;
+}
+
+.theme-details-read-more.open {
+	margin: 0.5em 0 0 0;
+}
+
+.astra-sites-preview .theme-screenshot {
+	width: 100%;
+}
+
+.install-theme-info .site-type.premium {
+	display: none;
+}
+
+/**
+ * Required Plugins
+ */
+.required-plugins.loading {
+	text-align: center;
+}
+
+.required-plugins button {
+	float: right;
+}
+
+.required-plugins .plugin-card {
+	float: none;
+	width: 100%;
+	border: none;
+	margin: 0 0 0.8em 0;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	transition: background ease 0.8s;
+}
+
+.required-plugins .plugin-card.plugin-card-update-failed {
+	flex-wrap: wrap;
+}
+
+.required-plugins .spinner {
+	float: none;
+	margin: 0;
+}
+
+.expanded .wp-full-overlay-footer {
+	height: 111px;
+}
+
+.wp-full-overlay-footer .view-site,
+.wp-full-overlay-footer .go-pro,
+.wp-full-overlay-footer .astra-demo-import {
+	width: 100%;
+	text-align: center;
+}
+
+.wp-core-ui .wp-full-overlay-footer .button.button-hero,
+.wp-core-ui .wp-full-overlay-footer .button-group.button-hero .button {
+	padding: 0 10px 1px;
+}
+
+.wp-full-overlay-footer .installing:before {
+	vertical-align: text-bottom;
+}
+
+.required-plugins-wrap h4 {
+	margin: 1em 0 0.5em 0;
+	padding: 0.5em 0;
+	transition: all ease 0.3s;
+}
+
+/**
+ * Read more link
+ */
+.wp-core-ui .theme-details-read-more:focus,
+.wp-core-ui .theme-details-read-more:hover {
+	outline: none;
+	box-shadow: none;
+}
+
+.wp-core-ui .theme-details-read-more {
+	margin: 10px 0;
+	display: none;
+	text-decoration: none;
+}
+
+/**
+ * Go pro.
+ */
+.wp-core-ui .go-pro.button[disabled] {
+	background-color: #fcb92c !important;
+	color: white !important;
+	box-shadow: 1px 0 #eab23a !important;
+	text-shadow: 1px 0 #6b4e13 !important;
+	border-color: #e2a932 !important;
+	cursor: pointer;
+}
+
+.wp-core-ui .view-site .dashicons,
+.wp-core-ui .go-pro .dashicons {
+	font-size: 1rem;
+	vertical-align: middle;
+}
+
+/**
+ * Errors
+ */
+.plugin-card-update-failed .notice {
+	margin-top: 1.5em;
+}
+
+.no-themes {
+	margin-top: 40px;
+}
+
+.no-themes p {
+	font-size: 15px;
+}
+
+.no-themes .left-margin {
+	margin-left: 30px;
+}
+
+/**
+ *
+ */
+.astra-sites-preview .wp-full-overlay-sidebar-content {
+	bottom: 100px;
+}
+
+.footer-import-button-wrap {
+	padding: 10px 20px;
+}
+
+.footer-import-button-wrap .button {
+	margin: 0;
+}
+
+.astra-sites-preview.expanded .wp-full-overlay-footer {
+	left: initial;
+}
+
+/**
+ * Menu Page
+ */
+.astra-sites-title {
+	float: left;
+	font-size: 23px;
+	font-weight: 400;
+	margin: 0 0 6px 0px;
+	padding: 0;
+	line-height: 29px;
+}
+
+#astra-sites-menu-page {
+	margin-top: 10px;
+}
+
+/**
+ * API Error
+ */
+.astra-api-error {
+	margin: 0 0 0.5em 0;
+}
+
+/**
+ * Grid
+ */
+.wp-filter .search-form {
+	margin-left: 1em;
+}
+
+.wp-filter .search-form input[type="search"] {
+	width: 200px;
+	font-size: 13px;
+	padding: 5px 10px;
+}
+
+.section-left {
+	display: inline-block;
+}
+
+.section-right {
+	float: right;
+}
+
+.filter-count {
+	min-width: 3em;
+}
+
+.astra-site-preview-on {
+	overflow: hidden;
+}
+
+#astra-sites-menu-page .notice {
+	margin-left: 0;
+	width: auto;
+	float: none;
+}
+
+.filters-wrap {
+	display: inline-block;
+}
+
+.spinner-wrap {
+	text-align: center;
+}
+
+.spinner-wrap .spinner {
+	float: none;
+}
+
+.hide-me {
+	display: none !important;
+}
+
+#astra-sites-admin {
+	height: 100vh;
+}
+
+.install-theme-info > .notice {
+	margin: 5px 0 10px 0;
+}
+
+.astra-sites-suggestions:before {
+	border: 5px dashed #ccc;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0px;
+}
+
+.astra-sites-suggestions {
+	min-height: 280px;
+	border: none !important;
+}
+
+.astra-sites-suggestions a {
+	border: none;
+	outline: none;
+}
+
+.astra-sites-suggestions .inner {
+	border: 6px solid #24282e !important;
+	padding: 27% 10% 50% 10%;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	background: #33383d;
+	bottom: 0;
+	color: #eee;
+	cursor: auto;
+}
+
+.astra-sites-suggestions .inner a {
+	color: #00b9eb;
+}
+
+.astra-sites-suggestions p {
+	font-size: 1rem;
+	margin: 0;
+}
+
+.astra-notice {
+	margin: 2em 2em 0em 0em;
+}
+
+.no-themes .description {
+	display: block;
+}
+
+/**
+ * Responsive Button UI
+ */
+.astra-sites-preview .wp-full-overlay-footer .devices button.active:before,
+.astra-sites-preview .wp-full-overlay-footer .devices button:hover:before {
+	color: #0073aa;
+}
+
+.astra-sites-preview .wp-full-overlay-footer .devices button:before {
+	color: #c1c1c1;
+}
+
+.astra-sites-preview .wp-full-overlay-footer .devices button:hover {
+	background-color: transparent;
+}
+
+.astra-sites-preview .wp-full-overlay-footer .devices button {
+	border: none;
+}
+
+.astra-sites-preview .wp-full-overlay-footer .devices button:focus,
+.astra-sites-preview .wp-full-overlay-footer .devices button.active:hover {
+	border-bottom-color: transparent;
+	background-color: transparent;
+}
+
+.not-click-able {
+	pointer-events: none !important;
+}
