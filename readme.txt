@@ -1,10 +1,11 @@
 ﻿=== TCI Ultimate Element Themes ===
-Contributors: Themecat Info
+Contributors: hannanishfaq510
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ashadab59@gmail.com&lc=GB&item_name=Donate%20For%20TCI%20Ultimate%20Element%20Themes%20Plugin&currency_code=USD&no_note=0&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest
-Tags: elementor themes, elementor dynamic tags, tci ultimte elementor themes, elementor store,
-Requires at least: 4.7
+Tags: elementor, addons, dynamic tags, custom css, custom-attribues, landing-page, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
+Requires PHP: 7.0
+Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 3.6.5
+Stable tag: 0.0.5
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -37,6 +38,7 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET Page Title: Widget create for diaply the page or post title.
 - TCI UET Site Title: Widget create for diaply the website title.
 - TCI UET Site Logo: Widget create for diaply the website logo.
+- TCI UET WordPress Widgets: Add wordpress all widgets.
 
 = Dynamic Tags Features =
 - TCI UET Archive Description
@@ -72,6 +74,7 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET Site Title
 - TCI UET Site URL
 - TCI UET User Info
+- TCI UET Internal Url
 
 = Third Party Forms Features =
 - [TCI UET Contact Forms 7](https://wordpress.org/plugins/contact-form-7/): Widget create for disply the contact form 7 plugin forms and change the style on live time.
@@ -107,6 +110,13 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 - TCI UET Elementor Template Widget
 
 == Changelog ==
+= 0.0.5 =
+* Add WordPress Widgets With Extra Options Like Title Settings, After Title And Settings And Before Title And Settings.
+* Add TCI UET Internal Url Dynamic Tag.
+* Add Custom Option In TCI UET Post Custom Field Dynamic Tag.
+* Add Custom Option In TCI UET Post Custom Field Dynamic Tag.
+* Fix the plugin errors
+
 = 0.0.4 =
 * Fix the plugin activation error
 

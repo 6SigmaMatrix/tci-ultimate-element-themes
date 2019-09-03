@@ -1,6 +1,14 @@
 (function ($) {
     $(window).on('elementor/frontend/init', function (module) {
         "use strict";
+        // Attach to TCI UET Stciky Section
+        elementorFrontend.hooks.addAction('frontend/element_ready/section', function ($scope) {
+            tci_uet_sticky($scope);
+        });
+        // Attach to TCI UET Stciky Widget
+        elementorFrontend.hooks.addAction('frontend/element_ready/widget', function ($scope) {
+            tci_uet_sticky($scope);
+        });
         // Attach to TCI UET Search Form Widget
         elementorFrontend.hooks.addAction('frontend/element_ready/TCI_UET_Search_Form.default', function ($scope) {
             var SearchBerHandler = elementorModules.frontend.handlers.Base.extend({
@@ -259,5 +267,96 @@
         } else {
             jQuery(document).on('fb:sdk:loaded', parse);
         }
+    }
+
+    function tci_uet_sticky($scope) {
+        var StickyHandler = elementorModules.frontend.handlers.Base.extend({
+            bindEvents: function bindEvents() {
+                elementorFrontend.addListenerOnce(this.getUniqueHandlerID() + 'sticky', 'resize', this.run);
+            },
+            unbindEvents: function unbindEvents() {
+                elementorFrontend.removeListeners(this.getUniqueHandlerID() + 'sticky', 'resize', this.run);
+            },
+            isActive: function isActive() {
+                return undefined !== this.$element.data('sticky');
+            },
+            activate: function activate() {
+                var elementSettings = this.getElementSettings(),
+                    stickyOptions = {
+                        to: elementSettings.sticky,
+                        offset: elementSettings.sticky_offset,
+                        effectsOffset: elementSettings.sticky_effects_offset,
+                        classes: {
+                            sticky: 'elementor-sticky',
+                            stickyActive: 'elementor-sticky--active elementor-section--handles-inside',
+                            stickyEffects: 'elementor-sticky--effects',
+                            spacer: 'elementor-sticky__spacer'
+                        }
+                    },
+                    $wpAdminBar = elementorFrontend.elements.$wpAdminBar;
+
+                if (elementSettings.sticky_parent) {
+                    stickyOptions.parent = '.elementor-widget-wrap';
+                }
+
+                if ($wpAdminBar.length && 'top' === elementSettings.sticky && 'fixed' === $wpAdminBar.css('position')) {
+                    stickyOptions.offset += $wpAdminBar.height();
+                }
+                console.log(this.$element);
+                this.$element.sticky(stickyOptions);
+            },
+            deactivate: function deactivate() {
+                if (!this.isActive()) {
+                    return;
+                }
+
+                this.$element.sticky('destroy');
+            },
+            run: function run(refresh) {
+                if (!this.getElementSettings('sticky')) {
+                    this.deactivate();
+
+                    return;
+                }
+
+                var currentDeviceMode = elementorFrontend.getCurrentDeviceMode(),
+                    activeDevices = this.getElementSettings('sticky_on');
+
+                if (-1 !== activeDevices.indexOf(currentDeviceMode)) {
+                    if (true === refresh) {
+                        this.reactivate();
+                    } else if (!this.isActive()) {
+                        this.activate();
+                    }
+                } else {
+                    this.deactivate();
+                }
+            },
+            reactivate: function reactivate() {
+                this.deactivate();
+
+                this.activate();
+            },
+            onElementChange: function onElementChange(settingKey) {
+                if (-1 !== ['sticky', 'sticky_on'].indexOf(settingKey)) {
+                    this.run(true);
+                }
+
+                if (-1 !== ['sticky_offset', 'sticky_effects_offset', 'sticky_parent'].indexOf(settingKey)) {
+                    this.reactivate();
+                }
+            },
+            onInit: function onInit() {
+                elementorModules.frontend.handlers.Base.prototype.onInit.apply(this, arguments);
+
+                this.run();
+            },
+            onDestroy: function onDestroy() {
+                elementorModules.frontend.handlers.Base.prototype.onDestroy.apply(this, arguments);
+
+                this.deactivate();
+            }
+        });
+        new StickyHandler({$element: $scope});
     }
 })(jQuery);

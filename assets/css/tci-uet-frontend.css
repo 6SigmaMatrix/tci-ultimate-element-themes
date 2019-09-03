@@ -1,0 +1,1671 @@
+/*--- TCI UET WP Widget Style ---*/
+.tci-uet-wp-widget-before-title,
+.tci-uet-wp-widget-after-title {
+	display: block;
+}
+
+/*--- TCI UET Author Box ---*/
+.elementor-author-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.elementor-author-box__avatar {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	margin-right: 25px;
+}
+
+.elementor-author-box__avatar img {
+	width: 100px;
+	border-radius: 500px;
+	-o-object-fit: cover;
+	object-fit: cover;
+}
+
+.elementor-author-box__text {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	font-size: 17px;
+}
+
+.elementor-author-box__name {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+.elementor-author-box__bio {
+	margin-bottom: 0.8em;
+}
+
+.elementor-author-box__bio p {
+	margin-bottom: 0.8em;
+}
+
+.elementor-author-box__bio p:last-of-type {
+	margin-bottom: 0;
+}
+
+.elementor-author-box--layout-image-left .elementor-author-box {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+}
+
+.elementor-author-box--layout-image-left .elementor-author-box__avatar {
+	margin-left: 0;
+	margin-right: 25px;
+}
+
+.elementor-author-box--layout-image-right .elementor-author-box {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse;
+}
+
+.elementor-author-box--layout-image-right .elementor-author-box__avatar {
+	margin-right: 0;
+	margin-left: 25px;
+}
+
+.elementor-author-box--layout-image-above .elementor-author-box {
+	display: block;
+}
+
+.elementor-author-box--layout-image-above .elementor-author-box__avatar {
+	margin: 0 auto 15px;
+	display: inline-block;
+}
+
+.elementor-author-box--layout-image-above.elementor-author-box--align-left .elementor-author-box__avatar {
+	margin-left: 0;
+}
+
+.elementor-author-box--layout-image-above.elementor-author-box--align-right .elementor-author-box__avatar {
+	margin-right: 0;
+}
+
+.elementor-author-box--align-left .elementor-author-box {
+	text-align: left;
+}
+
+.elementor-author-box--align-right .elementor-author-box {
+	text-align: right;
+}
+
+.elementor-author-box--align-center .elementor-author-box {
+	text-align: center;
+}
+
+.elementor-button.elementor-author-box__button {
+	border: solid 2px #55595c;
+	font-size: 15px;
+	font-weight: 100;
+	padding: 10px 18px;
+}
+
+.elementor-button.elementor-author-box__button, .elementor-button.elementor-author-box__button:hover {
+	background: transparent;
+	color: #55595c;
+}
+
+.elementor-widget-author-box:not(.elementor-author-box--layout-image-above) .elementor-author-box__avatar {
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.elementor-widget-author-box:not(.elementor-author-box--layout-image-above).elementor-author-box--image-valign-top .elementor-author-box__avatar {
+	-webkit-align-self: flex-start;
+	-ms-flex-item-align: start;
+	align-self: flex-start;
+}
+
+.elementor-widget-author-box:not(.elementor-author-box--layout-image-above).elementor-author-box--image-valign-middle .elementor-author-box__avatar {
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center;
+}
+
+/*--- TCI UET Blockquote ---*/
+.entry-content blockquote.elementor-blockquote:not(.alignright):not(.alignleft), .entry-summary blockquote.elementor-blockquote {
+	margin-right: 0;
+	margin-left: 0
+}
+
+.elementor-widget-blockquote blockquote {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+	quotes: none;
+	border: 0 none;
+	font-style: normal;
+	color: #55595c
+}
+
+.elementor-widget-blockquote blockquote:after, .elementor-widget-blockquote blockquote:before, .elementor-widget-blockquote blockquote cite:after, .elementor-widget-blockquote blockquote cite:before, .elementor-widget-blockquote blockquote footer:after, .elementor-widget-blockquote blockquote footer:before {
+	content: "";
+	content: none
+}
+
+.elementor-blockquote {
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s
+}
+
+.elementor-blockquote__author, .elementor-blockquote__content {
+	margin-bottom: 0;
+	font-style: normal
+}
+
+.elementor-blockquote__author {
+	font-weight: 700;
+	white-space: pre-wrap
+}
+
+.elementor-blockquote footer {
+	margin-top: 12px;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.elementor-blockquote__tweet-button, .elementor-blockquote footer {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.elementor-blockquote__tweet-button {
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	color: #1da1f2;
+	-webkit-align-self: flex-end;
+	-ms-flex-item-align: end;
+	align-self: flex-end;
+	line-height: 1;
+	position: relative;
+	width: -webkit-max-content;
+	width: -moz-max-content;
+	width: max-content
+}
+
+.elementor-blockquote__tweet-button:hover {
+	color: #0967a0
+}
+
+.elementor-blockquote__tweet-button span {
+	font-weight: 600
+}
+
+.elementor-blockquote__tweet-button i, .elementor-blockquote__tweet-button span {
+	vertical-align: middle
+}
+
+.elementor-blockquote__tweet-button i + span {
+	margin-left: .5em
+}
+
+.elementor-blockquote__tweet-button i {
+	font-family: FontAwesome !important
+}
+
+.elementor-blockquote__tweet-label {
+	white-space: pre-wrap
+}
+
+.elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button, .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button {
+	padding: .7em 1.2em;
+	border-radius: 100em;
+	background-color: #1da1f2;
+	color: #fff;
+	font-size: 15px
+}
+
+.elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:hover, .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button:hover {
+	background-color: #0967a0;
+	color: #fff
+}
+
+.elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:hover:before, .elementor-blockquote--button-skin-classic .elementor-blockquote__tweet-button:hover:before {
+	border-right-color: #0967a0
+}
+
+.elementor-blockquote--button-skin-bubble.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button, .elementor-blockquote--button-skin-classic.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button {
+	padding: 0;
+	width: 2em;
+	height: 2em
+}
+
+.elementor-blockquote--button-skin-bubble.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button i, .elementor-blockquote--button-skin-classic.elementor-blockquote--button-view-icon .elementor-blockquote__tweet-button i {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%)
+}
+
+.elementor-blockquote--button-skin-bubble .elementor-blockquote__tweet-button:before {
+	content: "";
+	border: .5em solid transparent;
+	border-right-color: #1da1f2;
+	position: absolute;
+	left: -.8em;
+	top: 50%;
+	-webkit-transform: translateY(-50%) scaleY(.65);
+	-ms-transform: translateY(-50%) scaleY(.65);
+	transform: translateY(-50%) scaleY(.65);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s
+}
+
+.elementor-blockquote--button-skin-bubble.elementor-blockquote--align-left .elementor-blockquote__tweet-button:before {
+	right: auto;
+	left: -.8em;
+	border-right-color: #1da1f2;
+	border-left-color: transparent
+}
+
+.elementor-blockquote--button-skin-bubble.elementor-blockquote--align-left .elementor-blockquote__tweet-button:hover:before {
+	border-right-color: #0967a0
+}
+
+.elementor-blockquote--button-skin-bubble.elementor-blockquote--align-right .elementor-blockquote__tweet-button:before {
+	left: auto;
+	right: -.8em;
+	border-right-color: transparent;
+	border-left-color: #1da1f2
+}
+
+.elementor-blockquote--button-skin-bubble.elementor-blockquote--align-right .elementor-blockquote__tweet-button:hover:before {
+	border-left-color: #0967a0
+}
+
+.elementor-blockquote--skin-boxed .elementor-blockquote {
+	background-color: #e6e9ec;
+	padding: 30px
+}
+
+.elementor-blockquote--skin-border .elementor-blockquote {
+	border-color: #e6e9ec;
+	border-style: solid;
+	border-left-width: 7px;
+	padding-left: 20px
+}
+
+.elementor-blockquote--skin-quotation .elementor-blockquote:before {
+	content: "“";
+	font-size: 100px;
+	color: #e6e9ec;
+	font-family: Times New Roman, Times, serif;
+	font-weight: 900;
+	line-height: 1;
+	display: block;
+	height: .6em
+}
+
+.elementor-blockquote--skin-quotation .elementor-blockquote__content {
+	margin-top: 15px
+}
+
+.elementor-blockquote--align-left .elementor-blockquote__content {
+	text-align: left
+}
+
+.elementor-blockquote--align-left .elementor-blockquote footer {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row
+}
+
+.elementor-blockquote--align-right .elementor-blockquote__content {
+	text-align: right
+}
+
+.elementor-blockquote--align-right .elementor-blockquote footer {
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: reverse;
+	-webkit-flex-direction: row-reverse;
+	-ms-flex-direction: row-reverse;
+	flex-direction: row-reverse
+}
+
+.elementor-blockquote--align-center .elementor-blockquote {
+	text-align: center
+}
+
+.elementor-blockquote--align-center .elementor-blockquote__author, .elementor-blockquote--align-center .elementor-blockquote footer {
+	display: block
+}
+
+.elementor-blockquote--align-center .elementor-blockquote__tweet-button {
+	margin-right: auto;
+	margin-left: auto
+}
+
+/*--- TCI UET Nav Menu ---*/
+.site-main .menu-navigation-container {
+	overflow: visible
+}
+
+.elementor-item:after, .elementor-item:before {
+	display: block;
+	position: absolute;
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s;
+	-webkit-transition-timing-function: cubic-bezier(.58, .3, .005, 1);
+	-o-transition-timing-function: cubic-bezier(.58, .3, .005, 1);
+	transition-timing-function: cubic-bezier(.58, .3, .005, 1)
+}
+
+.elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	opacity: 0
+}
+
+.elementor-item-active:after, .elementor-item-active:before, .elementor-item.highlighted:after, .elementor-item.highlighted:before, .elementor-item:focus:after, .elementor-item:focus:before, .elementor-item:hover:after, .elementor-item:hover:before {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1)
+}
+
+.e--pointer-double-line .elementor-item:after, .e--pointer-double-line .elementor-item:before, .e--pointer-overline .elementor-item:after, .e--pointer-overline .elementor-item:before, .e--pointer-underline .elementor-item:after, .e--pointer-underline .elementor-item:before {
+	height: 3px;
+	width: 100%;
+	left: 0;
+	background-color: #55595c;
+	z-index: 2
+}
+
+.e--pointer-double-line.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-double-line.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-overline.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-overline.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-underline.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-underline.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	height: 0;
+	width: 0;
+	left: 50%
+}
+
+.e--pointer-double-line.e--animation-drop-out .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-overline.e--animation-drop-out .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-underline.e--animation-drop-out .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	top: 10px
+}
+
+.e--pointer-double-line.e--animation-drop-out .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-overline.e--animation-drop-out .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-underline.e--animation-drop-out .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after {
+	bottom: 10px
+}
+
+.e--pointer-double-line.e--animation-drop-in .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-overline.e--animation-drop-in .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-underline.e--animation-drop-in .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	top: -10px
+}
+
+.e--pointer-double-line.e--animation-drop-in .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-overline.e--animation-drop-in .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-underline.e--animation-drop-in .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after {
+	bottom: -10px
+}
+
+.e--pointer-double-line.e--animation-none, .e--pointer-double-line.e--animation-none .elementor-item, .e--pointer-double-line.e--animation-none .elementor-item:after, .e--pointer-double-line.e--animation-none .elementor-item:before, .e--pointer-double-line.e--animation-none .elementor-item:focus, .e--pointer-double-line.e--animation-none .elementor-item:hover, .e--pointer-double-line.e--animation-none:after, .e--pointer-double-line.e--animation-none:before, .e--pointer-double-line.e--animation-none:focus, .e--pointer-double-line.e--animation-none:hover, .e--pointer-overline.e--animation-none, .e--pointer-overline.e--animation-none .elementor-item, .e--pointer-overline.e--animation-none .elementor-item:after, .e--pointer-overline.e--animation-none .elementor-item:before, .e--pointer-overline.e--animation-none .elementor-item:focus, .e--pointer-overline.e--animation-none .elementor-item:hover, .e--pointer-overline.e--animation-none:after, .e--pointer-overline.e--animation-none:before, .e--pointer-overline.e--animation-none:focus, .e--pointer-overline.e--animation-none:hover, .e--pointer-underline.e--animation-none, .e--pointer-underline.e--animation-none .elementor-item, .e--pointer-underline.e--animation-none .elementor-item:after, .e--pointer-underline.e--animation-none .elementor-item:before, .e--pointer-underline.e--animation-none .elementor-item:focus, .e--pointer-underline.e--animation-none .elementor-item:hover, .e--pointer-underline.e--animation-none:after, .e--pointer-underline.e--animation-none:before, .e--pointer-underline.e--animation-none:focus, .e--pointer-underline.e--animation-none:hover {
+	-webkit-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s
+}
+
+.e--pointer-double-line .elementor-item:before, .e--pointer-overline .elementor-item:before {
+	content: "";
+	top: 0
+}
+
+.e--pointer-double-line.e--animation-slide .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before, .e--pointer-overline.e--animation-slide .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	width: 10px;
+	left: -20px
+}
+
+.e--pointer-double-line .elementor-item:after, .e--pointer-underline .elementor-item:after {
+	content: "";
+	bottom: 0
+}
+
+.e--pointer-double-line.e--animation-slide .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after, .e--pointer-underline.e--animation-slide .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):after {
+	width: 10px;
+	left: calc(100% + 20px)
+}
+
+.e--pointer-framed .elementor-item:after, .e--pointer-framed .elementor-item:before {
+	background: transparent;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	border: 3px solid #55595c
+}
+
+.e--pointer-framed .elementor-item:before {
+	content: ""
+}
+
+.e--pointer-framed.e--animation-grow .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	-webkit-transform: scale(.75);
+	-ms-transform: scale(.75);
+	transform: scale(.75)
+}
+
+.e--pointer-framed.e--animation-shrink .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	-webkit-transform: scale(1.25);
+	-ms-transform: scale(1.25);
+	transform: scale(1.25)
+}
+
+.e--pointer-framed.e--animation-grow .elementor-item:before, .e--pointer-framed.e--animation-shrink .elementor-item:before {
+	-webkit-transition: opacity .2s, -webkit-transform .4s;
+	transition: opacity .2s, -webkit-transform .4s;
+	-o-transition: opacity .2s, transform .4s;
+	transition: opacity .2s, transform .4s;
+	transition: opacity .2s, transform .4s, -webkit-transform .4s
+}
+
+.e--pointer-framed.e--animation-draw .elementor-item:after, .e--pointer-framed.e--animation-draw .elementor-item:before {
+	width: 3px;
+	height: 3px
+}
+
+.e--pointer-framed.e--animation-draw .elementor-item:before {
+	border-width: 0 0 3px 3px;
+	-webkit-transition: width .1s .2s, height .1s .3s, opacity .12s .22s;
+	-o-transition: width .1s .2s, height .1s .3s, opacity .12s .22s;
+	transition: width .1s .2s, height .1s .3s, opacity .12s .22s
+}
+
+.e--pointer-framed.e--animation-draw .elementor-item:after {
+	content: "";
+	top: auto;
+	bottom: 0;
+	left: auto;
+	right: 0;
+	border-width: 3px 3px 0 0;
+	-webkit-transition: width .1s, height .1s .1s, opacity .02s .18s;
+	-o-transition: width .1s, height .1s .1s, opacity .02s .18s;
+	transition: width .1s, height .1s .1s, opacity .02s .18s
+}
+
+.e--pointer-framed.e--animation-draw .elementor-item-active:after, .e--pointer-framed.e--animation-draw .elementor-item-active:before, .e--pointer-framed.e--animation-draw .elementor-item.highlighted:after, .e--pointer-framed.e--animation-draw .elementor-item.highlighted:before, .e--pointer-framed.e--animation-draw .elementor-item:focus:after, .e--pointer-framed.e--animation-draw .elementor-item:focus:before, .e--pointer-framed.e--animation-draw .elementor-item:hover:after, .e--pointer-framed.e--animation-draw .elementor-item:hover:before {
+	width: 100%;
+	height: 100%
+}
+
+.e--pointer-framed.e--animation-draw .elementor-item-active:before, .e--pointer-framed.e--animation-draw .elementor-item.highlighted:before, .e--pointer-framed.e--animation-draw .elementor-item:focus:before, .e--pointer-framed.e--animation-draw .elementor-item:hover:before {
+	-webkit-transition: opacity .02s, height .1s, width .1s .1s;
+	-o-transition: opacity .02s, height .1s, width .1s .1s;
+	transition: opacity .02s, height .1s, width .1s .1s
+}
+
+.e--pointer-framed.e--animation-draw .elementor-item-active:after, .e--pointer-framed.e--animation-draw .elementor-item.highlighted:after, .e--pointer-framed.e--animation-draw .elementor-item:focus:after, .e--pointer-framed.e--animation-draw .elementor-item:hover:after {
+	-webkit-transition: opacity .02s .2s, height .1s .2s, width .1s .3s;
+	-o-transition: opacity .02s .2s, height .1s .2s, width .1s .3s;
+	transition: opacity .02s .2s, height .1s .2s, width .1s .3s
+}
+
+.e--pointer-framed.e--animation-corners .elementor-item:after, .e--pointer-framed.e--animation-corners .elementor-item:before {
+	width: 3px;
+	height: 3px
+}
+
+.e--pointer-framed.e--animation-corners .elementor-item:before {
+	border-width: 3px 0 0 3px
+}
+
+.e--pointer-framed.e--animation-corners .elementor-item:after {
+	content: "";
+	top: auto;
+	bottom: 0;
+	left: auto;
+	right: 0;
+	border-width: 0 3px 3px 0
+}
+
+.e--pointer-framed.e--animation-corners .elementor-item-active:after, .e--pointer-framed.e--animation-corners .elementor-item-active:before, .e--pointer-framed.e--animation-corners .elementor-item.highlighted:after, .e--pointer-framed.e--animation-corners .elementor-item.highlighted:before, .e--pointer-framed.e--animation-corners .elementor-item:focus:after, .e--pointer-framed.e--animation-corners .elementor-item:focus:before, .e--pointer-framed.e--animation-corners .elementor-item:hover:after, .e--pointer-framed.e--animation-corners .elementor-item:hover:before {
+	width: 100%;
+	height: 100%;
+	-webkit-transition: opacity 2ms, width .4s, height .4s;
+	-o-transition: opacity 2ms, width .4s, height .4s;
+	transition: opacity 2ms, width .4s, height .4s
+}
+
+.e--pointer-framed.e--animation-none, .e--pointer-framed.e--animation-none .elementor-item, .e--pointer-framed.e--animation-none .elementor-item:after, .e--pointer-framed.e--animation-none .elementor-item:before, .e--pointer-framed.e--animation-none .elementor-item:focus, .e--pointer-framed.e--animation-none .elementor-item:hover, .e--pointer-framed.e--animation-none:after, .e--pointer-framed.e--animation-none:before, .e--pointer-framed.e--animation-none:focus, .e--pointer-framed.e--animation-none:hover {
+	-webkit-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s
+}
+
+.e--pointer-background .elementor-item:after, .e--pointer-background .elementor-item:before {
+	content: "";
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s
+}
+
+.e--pointer-background .elementor-item:before {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #55595c;
+	z-index: -1
+}
+
+.e--pointer-background .elementor-item-active, .e--pointer-background .elementor-item.highlighted, .e--pointer-background .elementor-item:focus, .e--pointer-background .elementor-item:hover {
+	color: #fff
+}
+
+.e--pointer-background.e--animation-grow .elementor-item:before {
+	-webkit-transform: scale(.5);
+	-ms-transform: scale(.5);
+	transform: scale(.5)
+}
+
+.e--pointer-background.e--animation-grow .elementor-item-active:before, .e--pointer-background.e--animation-grow .elementor-item.highlighted:before, .e--pointer-background.e--animation-grow .elementor-item:focus:before, .e--pointer-background.e--animation-grow .elementor-item:hover:before {
+	-webkit-transform: scale(1);
+	-ms-transform: scale(1);
+	transform: scale(1);
+	opacity: 1
+}
+
+.e--pointer-background.e--animation-shrink .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2);
+	-webkit-transition: .3s;
+	-o-transition: .3s;
+	transition: .3s
+}
+
+.e--pointer-background.e--animation-shrink .elementor-item-active:before, .e--pointer-background.e--animation-shrink .elementor-item.highlighted:before, .e--pointer-background.e--animation-shrink .elementor-item:focus:before, .e--pointer-background.e--animation-shrink .elementor-item:hover:before {
+	-webkit-transition: opacity .15s, -webkit-transform .4s;
+	transition: opacity .15s, -webkit-transform .4s;
+	-o-transition: opacity .15s, transform .4s;
+	transition: opacity .15s, transform .4s;
+	transition: opacity .15s, transform .4s, -webkit-transform .4s
+}
+
+.e--pointer-background.e--animation-sweep-left .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	left: 100%
+}
+
+.e--pointer-background.e--animation-sweep-right .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	right: 100%
+}
+
+.e--pointer-background.e--animation-sweep-up .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	top: 100%
+}
+
+.e--pointer-background.e--animation-sweep-down .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	bottom: 100%
+}
+
+.e--pointer-background.e--animation-shutter-out-vertical .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	bottom: 50%;
+	top: 50%
+}
+
+.e--pointer-background.e--animation-shutter-out-horizontal .elementor-item:not(:hover):not(:focus):not(.elementor-item-active):not(.highlighted):before {
+	right: 50%;
+	left: 50%
+}
+
+.e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:after, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item:after {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background: #55595c;
+	z-index: -1
+}
+
+.e--pointer-background.e--animation-shutter-in-vertical .elementor-item:before {
+	top: 0;
+	bottom: 100%
+}
+
+.e--pointer-background.e--animation-shutter-in-vertical .elementor-item:after {
+	top: 100%;
+	bottom: 0
+}
+
+.e--pointer-background.e--animation-shutter-in-vertical .elementor-item-active:before, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item.highlighted:before, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item:focus:before, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item:hover:before {
+	bottom: 50%
+}
+
+.e--pointer-background.e--animation-shutter-in-vertical .elementor-item-active:after, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item.highlighted:after, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item:focus:after, .e--pointer-background.e--animation-shutter-in-vertical .elementor-item:hover:after {
+	top: 50%
+}
+
+.e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:before {
+	right: 0;
+	left: 100%
+}
+
+.e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:after {
+	right: 100%;
+	left: 0
+}
+
+.e--pointer-background.e--animation-shutter-in-horizontal .elementor-item-active:before, .e--pointer-background.e--animation-shutter-in-horizontal .elementor-item.highlighted:before, .e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:focus:before, .e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:hover:before {
+	left: 50%
+}
+
+.e--pointer-background.e--animation-shutter-in-horizontal .elementor-item-active:after, .e--pointer-background.e--animation-shutter-in-horizontal .elementor-item.highlighted:after, .e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:focus:after, .e--pointer-background.e--animation-shutter-in-horizontal .elementor-item:hover:after {
+	right: 50%
+}
+
+.e--pointer-background.e--animation-none, .e--pointer-background.e--animation-none .elementor-item, .e--pointer-background.e--animation-none .elementor-item:after, .e--pointer-background.e--animation-none .elementor-item:before, .e--pointer-background.e--animation-none .elementor-item:focus, .e--pointer-background.e--animation-none .elementor-item:hover, .e--pointer-background.e--animation-none:after, .e--pointer-background.e--animation-none:before, .e--pointer-background.e--animation-none:focus, .e--pointer-background.e--animation-none:hover {
+	-webkit-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s
+}
+
+.e--pointer-text.e--animation-skew .elementor-item:focus, .e--pointer-text.e--animation-skew .elementor-item:hover {
+	-webkit-transform: skew(-8deg);
+	-ms-transform: skew(-8deg);
+	transform: skew(-8deg)
+}
+
+.e--pointer-text.e--animation-grow .elementor-item:focus, .e--pointer-text.e--animation-grow .elementor-item:hover {
+	-webkit-transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	transform: scale(1.2)
+}
+
+.e--pointer-text.e--animation-shrink .elementor-item:focus, .e--pointer-text.e--animation-shrink .elementor-item:hover {
+	-webkit-transform: scale(.8);
+	-ms-transform: scale(.8);
+	transform: scale(.8)
+}
+
+.e--pointer-text.e--animation-float .elementor-item:focus, .e--pointer-text.e--animation-float .elementor-item:hover {
+	-webkit-transform: translateY(-8px);
+	-ms-transform: translateY(-8px);
+	transform: translateY(-8px)
+}
+
+.e--pointer-text.e--animation-sink .elementor-item:focus, .e--pointer-text.e--animation-sink .elementor-item:hover {
+	-webkit-transform: translateY(8px);
+	-ms-transform: translateY(8px);
+	transform: translateY(8px)
+}
+
+.e--pointer-text.e--animation-rotate .elementor-item:focus, .e--pointer-text.e--animation-rotate .elementor-item:hover {
+	-webkit-transform: rotate(6deg);
+	-ms-transform: rotate(6deg);
+	transform: rotate(6deg)
+}
+
+.e--pointer-text.e--animation-none, .e--pointer-text.e--animation-none .elementor-item, .e--pointer-text.e--animation-none .elementor-item:after, .e--pointer-text.e--animation-none .elementor-item:before, .e--pointer-text.e--animation-none .elementor-item:focus, .e--pointer-text.e--animation-none .elementor-item:hover, .e--pointer-text.e--animation-none:after, .e--pointer-text.e--animation-none:before, .e--pointer-text.e--animation-none:focus, .e--pointer-text.e--animation-none:hover {
+	-webkit-transition-duration: 0s;
+	-o-transition-duration: 0s;
+	transition-duration: 0s
+}
+
+.elementor-nav-menu--main .elementor-nav-menu a {
+	-webkit-transition: .4s;
+	-o-transition: .4s;
+	transition: .4s
+}
+
+.elementor-nav-menu--main .elementor-nav-menu a, .elementor-nav-menu--main .elementor-nav-menu a.highlighted, .elementor-nav-menu--main .elementor-nav-menu a:focus, .elementor-nav-menu--main .elementor-nav-menu a:hover {
+	padding: 13px 20px
+}
+
+.elementor-nav-menu--main .elementor-nav-menu a.current {
+	background: #373a3c;
+	color: #fff
+}
+
+.elementor-nav-menu--main .elementor-nav-menu a.disabled {
+	background: #55595c;
+	color: #a1a6a9
+}
+
+.elementor-nav-menu--main .elementor-nav-menu ul {
+	position: absolute;
+	width: 12em;
+	border-width: 0;
+	border-style: solid;
+	padding: 0
+}
+
+.elementor-nav-menu--main .elementor-nav-menu span.scroll-down, .elementor-nav-menu--main .elementor-nav-menu span.scroll-up {
+	position: absolute;
+	display: none;
+	visibility: hidden;
+	overflow: hidden;
+	background: #fff;
+	height: 20px
+}
+
+.elementor-nav-menu--main .elementor-nav-menu span.scroll-down-arrow, .elementor-nav-menu--main .elementor-nav-menu span.scroll-up-arrow {
+	position: absolute;
+	top: -2px;
+	left: 50%;
+	margin-left: -8px;
+	width: 0;
+	height: 0;
+	overflow: hidden;
+	border-width: 8px;
+	border-style: dashed dashed solid;
+	border-color: transparent transparent #494c4f
+}
+
+.elementor-nav-menu--main .elementor-nav-menu span.scroll-down-arrow {
+	top: 6px;
+	border-style: solid dashed dashed;
+	border-color: #494c4f transparent transparent
+}
+
+.elementor-nav-menu--main .elementor-nav-menu--dropdown .sub-arrow i {
+	-webkit-transform: rotate(-90deg);
+	-ms-transform: rotate(-90deg);
+	transform: rotate(-90deg)
+}
+
+.elementor-nav-menu--layout-horizontal, .elementor-nav-menu--layout-horizontal .elementor-nav-menu {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu {
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap
+}
+
+.elementor-nav-menu--layout-horizontal .elementor-nav-menu a {
+	white-space: nowrap
+}
+
+.elementor-nav-menu__align-right .elementor-nav-menu {
+	margin-left: auto
+}
+
+.elementor-nav-menu__align-right .elementor-nav-menu, .elementor-nav-menu__align-right .elementor-nav-menu--layout-vertical > ul > li > a {
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end
+}
+
+.elementor-nav-menu__align-left .elementor-nav-menu {
+	margin-right: auto
+}
+
+.elementor-nav-menu__align-left .elementor-nav-menu, .elementor-nav-menu__align-left .elementor-nav-menu--layout-vertical > ul > li > a {
+	-webkit-box-pack: start;
+	-webkit-justify-content: flex-start;
+	-ms-flex-pack: start;
+	justify-content: flex-start
+}
+
+.elementor-nav-menu__align-center .elementor-nav-menu {
+	margin-left: auto;
+	margin-right: auto
+}
+
+.elementor-nav-menu__align-center .elementor-nav-menu, .elementor-nav-menu__align-center .elementor-nav-menu--layout-vertical > ul > li > a {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.elementor-nav-menu__align-justify .elementor-nav-menu--layout-horizontal .elementor-nav-menu {
+	width: 100%
+}
+
+.elementor-nav-menu__align-justify .elementor-nav-menu--layout-horizontal .elementor-nav-menu > li {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1
+}
+
+.elementor-nav-menu__align-justify .elementor-nav-menu--layout-horizontal .elementor-nav-menu > li > a {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.elementor-widget-nav-menu:not(.elementor-nav-menu--toggle) .elementor-menu-toggle {
+	display: none
+}
+
+.elementor-widget-nav-menu .elementor-widget-container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.elementor-nav-menu {
+	position: relative;
+	z-index: 2
+}
+
+.elementor-nav-menu:after {
+	content: "\00a0";
+	display: block;
+	height: 0;
+	font: 0/0 serif;
+	clear: both;
+	visibility: hidden;
+	overflow: hidden
+}
+
+.elementor-nav-menu, .elementor-nav-menu li, .elementor-nav-menu ul {
+	display: block;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	line-height: normal;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+.elementor-nav-menu ul {
+	display: none
+}
+
+.elementor-nav-menu ul ul a, .elementor-nav-menu ul ul a:active, .elementor-nav-menu ul ul a:focus, .elementor-nav-menu ul ul a:hover {
+	border-left: 16px solid transparent
+}
+
+.elementor-nav-menu ul ul ul a, .elementor-nav-menu ul ul ul a:active, .elementor-nav-menu ul ul ul a:focus, .elementor-nav-menu ul ul ul a:hover {
+	border-left: 24px solid transparent
+}
+
+.elementor-nav-menu ul ul ul ul a, .elementor-nav-menu ul ul ul ul a:active, .elementor-nav-menu ul ul ul ul a:focus, .elementor-nav-menu ul ul ul ul a:hover {
+	border-left: 32px solid transparent
+}
+
+.elementor-nav-menu ul ul ul ul ul a, .elementor-nav-menu ul ul ul ul ul a:active, .elementor-nav-menu ul ul ul ul ul a:focus, .elementor-nav-menu ul ul ul ul ul a:hover {
+	border-left: 40px solid transparent
+}
+
+.elementor-nav-menu a, .elementor-nav-menu li {
+	position: relative
+}
+
+.elementor-nav-menu li {
+	border-width: 0
+}
+
+.elementor-nav-menu a {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center
+}
+
+.elementor-nav-menu a, .elementor-nav-menu a:focus, .elementor-nav-menu a:hover {
+	padding: 10px 20px;
+	line-height: 20px
+}
+
+.elementor-nav-menu a.current {
+	background: #373a3c;
+	color: #fff
+}
+
+.elementor-nav-menu a.disabled {
+	cursor: not-allowed;
+	color: #a1a6a9
+}
+
+.elementor-nav-menu--indicator-none .elementor-nav-menu .elementor-item.has-submenu {
+	padding-right: 20px
+}
+
+.elementor-nav-menu--indicator-none .elementor-nav-menu .elementor-item.has-submenu .sub-arrow {
+	display: none
+}
+
+.elementor-nav-menu--indicator-plus:before {
+	font-family: Open Sans, sans-serif
+}
+
+.elementor-nav-menu--indicator-chevron .elementor-nav-menu .sub-arrow {
+	font-size: 10px
+}
+
+.elementor-nav-menu--indicator-chevron .elementor-nav-menu .sub-arrow i:before {
+	content: "\f2d4"
+}
+
+.elementor-nav-menu--indicator-angle .elementor-nav-menu .sub-arrow i:before {
+	content: ""
+}
+
+.elementor-nav-menu--indicator-classic .elementor-nav-menu .sub-arrow i:before {
+	content: "\f078"
+}
+
+.elementor-nav-menu--indicator-plus .elementor-nav-menu .sub-arrow i:before {
+	content: "\f067"
+}
+
+.elementor-nav-menu .sub-arrow {
+	font-size: 16px;
+	line-height: 1;
+	padding: 10px 0 10px 10px;
+	margin-top: -10px;
+	margin-bottom: -10px
+}
+
+.elementor-nav-menu .sub-arrow i {
+	pointer-events: none
+}
+
+.elementor-nav-menu--dropdown .elementor-item.elementor-item-active, .elementor-nav-menu--dropdown .elementor-item.highlighted, .elementor-nav-menu--dropdown .elementor-item:focus, .elementor-nav-menu--dropdown .elementor-item:hover, .elementor-sub-item.elementor-item-active, .elementor-sub-item.highlighted, .elementor-sub-item:focus, .elementor-sub-item:hover {
+	background-color: #55595c;
+	color: #fff
+}
+
+.elementor-menu-toggle {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	font-size: 22px;
+	padding: .25em;
+	cursor: pointer;
+	border: 0 solid;
+	border-radius: 3px;
+	background-color: rgba(0, 0, 0, .05);
+	color: #494c4f
+}
+
+.elementor-menu-toggle i:before {
+	content: "\f03a"
+}
+
+.elementor-menu-toggle.elementor-active i:before {
+	content: "\f00d"
+}
+
+.elementor-nav-menu--dropdown {
+	background-color: #fff;
+	font-size: 13px
+}
+
+.elementor-nav-menu--dropdown.elementor-nav-menu__container {
+	margin-top: 10px;
+	-webkit-transition: max-height .3s, -webkit-transform .3s;
+	transition: max-height .3s, -webkit-transform .3s;
+	-o-transition: max-height .3s, transform .3s;
+	transition: max-height .3s, transform .3s;
+	transition: max-height .3s, transform .3s, -webkit-transform .3s;
+	-webkit-transform-origin: top;
+	-ms-transform-origin: top;
+	transform-origin: top;
+	overflow: auto
+}
+
+.elementor-nav-menu--dropdown.elementor-nav-menu__container .elementor-sub-item {
+	font-size: .85em
+}
+
+.elementor-nav-menu--dropdown a {
+	color: #494c4f;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.elementor-nav-menu--dropdown a.current {
+	background: #373a3c;
+	color: #fff
+}
+
+.elementor-nav-menu--dropdown a.disabled {
+	color: #b3b3b3
+}
+
+ul.elementor-nav-menu--dropdown a, ul.elementor-nav-menu--dropdown a:focus, ul.elementor-nav-menu--dropdown a:hover {
+	text-shadow: none;
+	border-left: 8px solid transparent
+}
+
+.elementor-nav-menu__text-align-center .elementor-nav-menu--dropdown .elementor-nav-menu a {
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center
+}
+
+.elementor-nav-menu--toggle .elementor-menu-toggle:not(.elementor-active) + .elementor-nav-menu__container {
+	-webkit-transform: scaleY(0);
+	-ms-transform: scaleY(0);
+	transform: scaleY(0);
+	max-height: 0
+}
+
+.elementor-nav-menu--toggle .elementor-menu-toggle.elementor-active + .elementor-nav-menu__container {
+	-webkit-transform: scaleY(1);
+	-ms-transform: scaleY(1);
+	transform: scaleY(1);
+	max-height: 100vh
+}
+
+.elementor-nav-menu--stretch .elementor-nav-menu__container.elementor-nav-menu--dropdown {
+	position: absolute;
+	z-index: 9997
+}
+
+@media (min-width: 768px) {
+	.elementor-nav-menu--dropdown-mobile .elementor-menu-toggle, .elementor-nav-menu--dropdown-mobile .elementor-nav-menu--dropdown {
+		display: none
+	}
+}
+
+@media (min-width: 1025px) {
+	.elementor-nav-menu--dropdown-tablet .elementor-menu-toggle, .elementor-nav-menu--dropdown-tablet .elementor-nav-menu--dropdown {
+		display: none
+	}
+}
+
+@media (max-width: 1024px) {
+	.elementor-nav-menu--dropdown-tablet .elementor-nav-menu--main {
+		display: none
+	}
+}
+
+@media (max-width: 767px) {
+	.elementor-nav-menu--dropdown-mobile .elementor-nav-menu--main {
+		display: none
+	}
+}
+
+/*--- TCI UET Post Info ---*/
+.elementor-post-info__terms-list {
+	display: inline-block;
+}
+
+.elementor .elementor-element ul.elementor-icon-list-items {
+	padding: 0;
+}
+
+.elementor-post-info .elementor-icon-list-icon .elementor-avatar {
+	border-radius: 100%;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text {
+	display: inline-block;
+}
+
+.elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text a, .elementor-icon-list-items .elementor-icon-list-item .elementor-icon-list-text span {
+	display: inline;
+}
+
+.elementor-widget .elementor-icon-list-items.elementor-inline-items .elementor-icon-list-item {
+	margin-right: 8px;
+	margin-left: 8px;
+}
+
+.elementor-widget .elementor-icon-list-items.elementor-inline-items {
+	margin-right: -8px;
+	margin-left: -8px;
+}
+
+.elementor-widget .elementor-icon-list-item a {
+	width: 100%;
+}
+
+.elementor-widget-post-info .elementor-icon-list-text, .elementor-widget-post-info .elementor-icon-list-text a {
+	color: #54595f;
+}
+
+.elementor-widget .elementor-icon-list-icon {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+.elementor-widget .elementor-icon-list-item, .elementor-widget .elementor-icon-list-item a {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+}
+
+/*--- TCI UET Price List ---*/
+.elementor-widget-TCI_UET_Price_List .elementor-price-list {
+	list-style: none;
+	padding: 0;
+	margin: 0
+}
+
+.elementor-widget-TCI_UET_Price_List .elementor-price-list li {
+	margin: 0
+}
+
+.elementor-price-list li:not(:last-child) {
+	margin-bottom: 20px
+}
+
+.elementor-price-list .elementor-price-list-image {
+	max-width: 50%;
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+	padding-right: 25px
+}
+
+.elementor-price-list .elementor-price-list-image img {
+	width: 100%
+}
+
+.elementor-price-list .elementor-price-list-header, .elementor-price-list .elementor-price-list-item, .elementor-price-list .elementor-price-list-text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex
+}
+
+.elementor-price-list .elementor-price-list-item, .elementor-price-list .elementor-price-list-item .elementor-price-list-text {
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start
+}
+
+.elementor-price-list .elementor-price-list-item .elementor-price-list-text {
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1
+}
+
+.elementor-price-list .elementor-price-list-item .elementor-price-list-header {
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	font-size: 19px;
+	font-weight: 600;
+	margin-bottom: 10px;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	-ms-flex-pack: justify;
+	justify-content: space-between
+}
+
+.elementor-price-list .elementor-price-list-item .elementor-price-list-title {
+	max-width: 80%
+}
+
+.elementor-price-list .elementor-price-list-item p.elementor-price-list-description {
+	-webkit-flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	font-size: 14px;
+	margin: 0
+}
+
+.elementor-price-list .elementor-price-list-item .elementor-price-list-separator {
+	-webkit-box-flex: 1;
+	-webkit-flex-grow: 1;
+	-ms-flex-positive: 1;
+	flex-grow: 1;
+	margin-left: 10px;
+	margin-right: 10px;
+	border-bottom-style: dotted;
+	border-bottom-width: 2px;
+	height: 0
+}
+
+/*--- TCI UET Price Table ---*/
+
+.elementor-price-table {
+	text-align: center
+}
+
+.elementor-price-table .elementor-price-table__header {
+	background: #555;
+	padding: 20px 0
+}
+
+.elementor-price-table .elementor-price-table__heading {
+	margin: 0;
+	padding: 0;
+	line-height: 1.2;
+	font-size: 24px;
+	font-weight: 600;
+	color: #fff
+}
+
+.elementor-price-table .elementor-price-table__subheading {
+	font-size: 13px;
+	font-weight: 400;
+	color: #fff
+}
+
+.elementor-price-table .elementor-price-table__original-price {
+	margin-right: 15px;
+	text-decoration: line-through;
+	font-size: .5em;
+	line-height: 1;
+	font-weight: 400;
+	-webkit-align-self: center;
+	-ms-flex-item-align: center;
+	align-self: center
+}
+
+.elementor-price-table .elementor-price-table__price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	color: #555;
+	font-weight: 800;
+	font-size: 65px;
+	padding: 40px 0
+}
+
+.elementor-price-table .elementor-price-table__price .elementor-typo-excluded {
+	line-height: normal;
+	letter-spacing: normal;
+	text-transform: none;
+	font-weight: 400;
+	font-size: medium;
+	font-style: normal
+}
+
+.elementor-price-table .elementor-price-table__after-price {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	text-align: left;
+	-webkit-align-self: stretch;
+	-ms-flex-item-align: stretch;
+	align-self: stretch;
+	-webkit-box-align: start;
+	-webkit-align-items: flex-start;
+	-ms-flex-align: start;
+	align-items: flex-start;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	-ms-flex-direction: column;
+	flex-direction: column
+}
+
+.elementor-price-table .elementor-price-table__integer-part {
+	line-height: .8
+}
+
+.elementor-price-table .elementor-price-table__currency, .elementor-price-table .elementor-price-table__fractional-part {
+	line-height: 1;
+	font-size: .3em
+}
+
+.elementor-price-table .elementor-price-table__currency {
+	margin-right: 3px
+}
+
+.elementor-price-table .elementor-price-table__period {
+	width: 100%;
+	font-size: 13px;
+	font-weight: 400
+}
+
+.elementor-price-table .elementor-price-table__features-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	line-height: 1
+}
+
+.elementor-price-table .elementor-price-table__features-list li {
+	font-size: 14px;
+	line-height: 1;
+	margin: 0;
+	padding: 0
+}
+
+.elementor-price-table .elementor-price-table__features-list li .elementor-price-table__feature-inner {
+	margin-left: 15px;
+	margin-right: 15px
+}
+
+.elementor-price-table .elementor-price-table__features-list li:not(:first-child):before {
+	content: "";
+	display: block;
+	border: 0 solid hsla(0, 0%, 48%, .3);
+	margin: 10px 12.5%
+}
+
+.elementor-price-table .elementor-price-table__features-list i {
+	margin-right: 10px;
+	font-size: 1.3em
+}
+
+.elementor-price-table .elementor-price-table__footer {
+	padding: 30px 0
+}
+
+.elementor-price-table .elementor-price-table__additional_info {
+	margin: 0;
+	font-size: 13px;
+	line-height: 1.4
+}
+
+.elementor-price-table__ribbon {
+	position: absolute;
+	top: 0;
+	left: auto;
+	right: 0;
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	width: 150px;
+	overflow: hidden;
+	height: 150px
+}
+
+.elementor-price-table__ribbon-inner {
+	text-align: center;
+	left: 0;
+	width: 200%;
+	-webkit-transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+	-ms-transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+	transform: translateY(-50%) translateX(-50%) translateX(35px) rotate(-45deg);
+	margin-top: 35px;
+	font-size: 13px;
+	line-height: 2;
+	font-weight: 800;
+	text-transform: uppercase;
+	background: #000
+}
+
+.elementor-price-table__ribbon.elementor-ribbon-left {
+	-webkit-transform: rotate(0);
+	-ms-transform: rotate(0);
+	transform: rotate(0);
+	left: 0;
+	right: auto
+}
+
+.elementor-price-table__ribbon.elementor-ribbon-right {
+	-webkit-transform: rotate(90deg);
+	-ms-transform: rotate(90deg);
+	transform: rotate(90deg);
+	left: auto;
+	right: 0
+}
+
+.elementor-TCI_UET_Price_Table .elementor-widget-container {
+	overflow: hidden;
+	background-color: #f7f7f7
+}
+
+/*--- TCI UET Search Form ---*/
+search-form {
+	display: block;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	/*------ Reset ------*/
+}
+
+.elementor-search-form input[type="search"], .elementor-search-form button {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	display: inline-block;
+	vertical-align: middle;
+	white-space: normal;
+	background: none;
+	line-height: 1;
+	min-width: 0;
+	font-size: 15px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+}
+
+.elementor-search-form input[type="search"]:focus, .elementor-search-form button:focus {
+	outline: 0;
+	color: inherit;
+}
+
+.elementor-search-form button {
+	background-color: #818a91;
+	font-size: 16px;
+	color: #fff;
+	border-radius: 0;
+}
+
+.elementor-search-form__container {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	overflow: hidden;
+	border: 0 solid transparent;
+	min-height: 50px;
+}
+
+.elementor-search-form__container:not(.elementor-search-form--full-screen) {
+	background: #eceeef;
+}
+
+.elementor-search-form__input {
+	-webkit-flex-basis: 100%;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+	color: #55595c;
+	-webkit-transition: color 0.2s;
+	-o-transition: color 0.2s;
+	transition: color 0.2s;
+}
+
+.elementor-search-form__input::-webkit-input-placeholder {
+	color: inherit;
+	font-family: inherit;
+	opacity: 0.6;
+}
+
+.elementor-search-form__input:-ms-input-placeholder {
+	color: inherit;
+	font-family: inherit;
+	opacity: 0.6;
+}
+
+.elementor-search-form__input:-moz-placeholder {
+	color: inherit;
+	font-family: inherit;
+	opacity: 0.6;
+}
+
+.elementor-search-form__input::-ms-input-placeholder {
+	color: inherit;
+	font-family: inherit;
+	opacity: 0.6;
+}
+
+.elementor-search-form__input::placeholder {
+	color: inherit;
+	font-family: inherit;
+	opacity: 0.6;
+}
+
+.elementor-search-form__submit {
+	color: #fff;
+	-webkit-transition: color 0.2s, background 0.2s;
+	-o-transition: color 0.2s, background 0.2s;
+	transition: color 0.2s, background 0.2s;
+}
+
+.elementor-search-form--button-type-text .elementor-search-form__submit {
+	-webkit-flex-shrink: 0;
+	-ms-flex-negative: 0;
+	flex-shrink: 0;
+}
+
+.elementor-search-form--skin-minimal .elementor-search-form__icon {
+	opacity: 0.6;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: end;
+	-webkit-justify-content: flex-end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+	color: #55595c;
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form input[type="search"].elementor-search-form__input {
+	font-size: 50px;
+	text-align: center;
+	border-style: solid;
+	border-width: 0 0 1px 0;
+	border-color: #fff;
+	line-height: 1.5;
+	color: #fff;
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form__toggle {
+	display: inline-block;
+	cursor: pointer;
+	vertical-align: middle;
+	color: #494c4f;
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form__toggle i {
+	position: relative;
+	display: block;
+	border: solid 0;
+	-webkit-transition: 0.2s;
+	-o-transition: 0.2s;
+	transition: 0.2s;
+	width: 33px;
+	height: 33px;
+	background-color: rgba(0, 0, 0, 0.05);
+	border-radius: 3px;
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form__toggle i:before {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	font-size: 0.55em;
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form__container {
+	-webkit-transition: 0.3s;
+	-o-transition: 0.3s;
+	transition: 0.3s;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	position: fixed;
+	z-index: 9998;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100vh;
+	padding: 0 15%;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form__container:not(.elementor-search-form--full-screen) {
+	overflow: hidden;
+	opacity: 0;
+	-webkit-transform: scale(0);
+	-ms-transform: scale(0);
+	transform: scale(0);
+}
+
+.elementor-search-form--skin-full_screen .elementor-search-form__container:not(.elementor-search-form--full-screen) .dialog-lightbox-close-button {
+	display: none;
+}
