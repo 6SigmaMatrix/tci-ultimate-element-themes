@@ -66,7 +66,7 @@ class TCI_UET_Contact_Form_7 extends Widget_Base {
 	 * @return array Widget categories.
 	 */
 	public function get_categories() {
-		return [ 'tci-widget-plugins' ];
+		return [ 'tci-widget-forms' ];
 	}
 
 	/**

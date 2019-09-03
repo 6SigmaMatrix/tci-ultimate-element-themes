@@ -6,3 +6,21 @@
 	padding: 10px;
 	border-radius: 3px;
 }
+/*
+.tci-uet-ver::after {
+	content: "";
+	font-size: 10px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	border-width: 0 0 1px 1px;
+	border-style: solid;
+	border-color: #556068;
+	padding: 2px 3px;
+}
+.elementor-element > .icon {
+	position: relative;
+}
+.elementor-navigator__element__element-type > i:after{
+	display:none
+}*/

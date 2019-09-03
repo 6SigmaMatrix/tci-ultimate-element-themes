@@ -36,8 +36,8 @@ class TCI_UET_Header extends Library_Document {
 	protected static function get_editor_panel_categories() {
 		// Move to top as active.
 		$categories = [
-			'auxin-theme-elements' => [
-				'title'  => __( 'Site', 'auxin-elements' ),
+			'tci-widget-site' => [
+				'title'  => __( 'TCI UET Site Widgets', 'auxin-elements' ),
 				'active' => true,
 			],
 		];

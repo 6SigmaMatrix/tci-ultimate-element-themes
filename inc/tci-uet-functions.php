@@ -3,7 +3,7 @@
  * TCI UET Functions file
  *
  * @package TCI Ultimate Element Themes
- * @version 0.0.5
+ * @version 0.0.6
  */
 tci_uet_exit();
 
@@ -626,6 +626,54 @@ function tci_uet_rev_slider_table_query() {
 	}
 
 	return apply_filters( 'tci_uet_rev_slider_table_query', $data );
+}
+
+/**
+ * TCI layer slider
+ *
+ * @since 0.0.6
+ */
+function tci_uet_layer_slider_table_query() {
+	global $wpdb;
+	$results = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM {$wpdb->prefix}layerslider WHERE %d", [ 1 ] ) );
+	$data    = [];
+	foreach ( $results as $result ) {
+		$data[ $result->id ] = $result->name;
+	}
+
+	return apply_filters( 'tci_uet_layer_slider_table_query', $data );
+}
+
+/**
+ * TCI master slider
+ *
+ * @since 0.0.6
+ */
+function tci_uet_master_slider_table_query() {
+	global $wpdb;
+	$results = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM {$wpdb->prefix}masterslider_sliders WHERE %d", [ 1 ] ) );
+	$data    = [];
+	foreach ( $results as $result ) {
+		$data[ $result->ID ] = $result->title;
+	}
+
+	return apply_filters( 'tci_uet_layer_slider_table_query', $data );
+}
+
+/**
+ * TCI smart slider
+ *
+ * @since 0.0.6
+ */
+function tci_uet_smart_slider_table_query() {
+	global $wpdb;
+	$results = $wpdb->get_results( $wpdb->prepare( "SELECT * FROM {$wpdb->prefix}nextend2_smartslider3_sliders WHERE %d", [ 1 ] ) );
+	$data    = [];
+	foreach ( $results as $result ) {
+		$data[ $result->id ] = $result->title;
+	}
+
+	return apply_filters( 'tci_uet_layer_slider_table_query', $data );
 }
 
 /**

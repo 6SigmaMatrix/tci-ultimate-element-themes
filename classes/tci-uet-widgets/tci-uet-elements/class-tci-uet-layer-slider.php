@@ -1,9 +1,9 @@
 <?php
 /**
- * TCI UET WPForms plugin widget class
+ * TCI UET Layer Slider plugin widget class
  *
  * @package TCI Ultimate Element Themes
- * @version 0.0.5
+ * @version 0.0.6
  */
 namespace TCI_UET\TCI_UET_Widgets;
 
@@ -12,7 +12,7 @@ tci_uet_exit();
 use Elementor\Widget_Base;
 use Elementor\Controls_Manager;
 
-class TCI_UET_Wpforms extends Widget_Base {
+class TCI_UET_Layer_Slider extends Widget_Base {
 
 	/**
 	 * Get widget name.
@@ -23,7 +23,7 @@ class TCI_UET_Wpforms extends Widget_Base {
 	 * @return string Widget name.
 	 */
 	public function get_name() {
-		return 'TCI_UET_Wpforms';
+		return 'TCI_UET_Layer_Slider';
 	}
 
 	/**
@@ -35,7 +35,7 @@ class TCI_UET_Wpforms extends Widget_Base {
 	 * @return string Widget title.
 	 */
 	public function get_title() {
-		return __( 'TCI UET WPForms', 'tci-uet' );
+		return __( 'TCI UET Layer Slider', 'tci-uet' );
 	}
 
 	/**
@@ -47,7 +47,7 @@ class TCI_UET_Wpforms extends Widget_Base {
 	 * @return string Widget icon.
 	 */
 	public function get_icon() {
-		return 'tci tci-uet-bear';
+		return 'tci tci-uet-refresh';
 	}
 
 	/**
@@ -59,7 +59,18 @@ class TCI_UET_Wpforms extends Widget_Base {
 	 * @return array Widget categories.
 	 */
 	public function get_categories() {
-		return [ 'tci-widget-forms' ];
+		return [ 'tci-widget-slider' ];
+	}
+
+	/**
+	 * Attach keywords.
+	 *
+	 * @since  0.0.1
+	 * @access public
+	 * @return array Widget keywords.
+	 */
+	public function get_keywords() {
+		return [ 'slider', 'layer slider' ];
 	}
 
 	/**
@@ -70,18 +81,18 @@ class TCI_UET_Wpforms extends Widget_Base {
 	 * @access protected
 	 */
 	protected function _register_controls() {
-		if ( ! function_exists( 'wpforms' ) ) {
+		if ( ! class_exists( 'LS_Shortcode' ) ) {
 			$this->start_controls_section(
-				TCI_UET_SETTINGS . '_wpforms_warning',
+				TCI_UET_SETTINGS . '_layer_slider_warning',
 				[
 					'label' => __( 'Warning!', 'tci-uet' ),
 				]
 			);
 			$this->add_control(
-				TCI_UET_SETTINGS . '_wpforms_warning_text',
+				TCI_UET_SETTINGS . '_layer_slider_warning_text',
 				[
 					'type'            => Controls_Manager::RAW_HTML,
-					'raw'             => __( '<strong>WPForms</strong> is not installed/activated on your site. Please install and activate <strong>WPForms</strong> first.', 'tci-uet' ),
+					'raw'             => __( '<strong>Layer Slider</strong> is not installed/activated on your site. Please install and activate <strong>Layer Slider</strong> first.', 'tci-uet' ),
 					'content_classes' => 'tci-uet-warning',
 				]
 			);
@@ -90,22 +101,22 @@ class TCI_UET_Wpforms extends Widget_Base {
 			return false;
 		}
 		/**
-		 * Forms List
+		 * Slides List
 		 */
 		$this->start_controls_section(
-			TCI_UET_SETTINGS . '_wpforms',
+			TCI_UET_SETTINGS . '_layer_slider',
 			[
-				'label' => __( 'WPForms', 'tci-uet' ),
+				'label' => __( 'Layer Slider', 'tci-uet' ),
 				'tab'   => Controls_Manager::TAB_CONTENT,
 			]
 		);
 
 		$this->add_control(
-			TCI_UET_SETTINGS . '_wpforms_slug',
+			TCI_UET_SETTINGS . '_layer_slider_id',
 			[
-				'label'   => __( 'Forms List', 'tci-uet' ),
+				'label'   => __( 'Slider List', 'tci-uet' ),
 				'type'    => Controls_Manager::SELECT,
-				'options' => tci_uet_get_post_list( 'wpforms' ),
+				'options' => tci_uet_layer_slider_table_query(),
 			]
 		);
 
@@ -121,17 +132,13 @@ class TCI_UET_Wpforms extends Widget_Base {
 	 * @access protected
 	 */
 	protected function render() {
-		if ( ! function_exists( 'wpforms' ) ) {
+		if ( ! class_exists( 'LS_Shortcode' ) ) {
 			return false;
 		}
 		$this->add_render_attribute( 'wrapper', 'class', 'tci-uet-widget' );
 		$settings = $this->get_settings_for_display();
 		$settings = tci_uet_array( $settings );
 
-		$post = get_page_by_path( $settings->get( TCI_UET_SETTINGS . '_wpforms_slug' ), OBJECT, 'wpforms' );
-
-		if ( ! empty( $post ) ) {
-			echo do_shortcode( '[wpforms id="' . $post->ID . '" title="false" description="false"]' );
-		}
+		echo do_shortcode( '[layerslider id="' . $settings->get( TCI_UET_SETTINGS . '_layer_slider_id' ) . '"]' );
 	}
 }

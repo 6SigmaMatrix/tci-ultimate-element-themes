@@ -53,7 +53,7 @@ class TCI_UET_Animated_Text extends Widget_Base {
 	 * @return string Widget icon.
 	 */
 	public function get_icon() {
-		return 'tci tci-uet-abc-block';
+		return 'tci-uet-ver tci tci-uet-abc-block';
 	}
 
 	/**

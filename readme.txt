@@ -5,7 +5,7 @@ Tags: elementor, addons, dynamic tags, custom css, custom-attribues, landing-pag
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 0.0.5
+Stable tag: 0.0.6
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -38,7 +38,7 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET Page Title: Widget create for diaply the page or post title.
 - TCI UET Site Title: Widget create for diaply the website title.
 - TCI UET Site Logo: Widget create for diaply the website logo.
-- TCI UET WordPress Widgets: Add wordpress all widgets.
+- TCI UET WordPress Widget: Add wordpress all widgets.
 
 = Dynamic Tags Features =
 - TCI UET Archive Description
@@ -77,14 +77,17 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET Internal Url
 
 = Third Party Forms Features =
-- [TCI UET Contact Forms 7](https://wordpress.org/plugins/contact-form-7/): Widget create for disply the contact form 7 plugin forms and change the style on live time.
-- [TCI UET Caldera Forms](https://wordpress.org/plugins/caldera-forms/): Widget create for disply the caldera forms plugin forms.
-- [TCI UET Ninja Forms](https://wordpress.org/plugins/ninja-forms/): Widget create for disply the ninja forms plugin forms.
-- [TCI UET Formidable Forms](https://wordpress.org/plugins/formidable/): Widget create for disply the formidable forms plugin forms.
-- [TCI UET WPForms](https://wordpress.org/plugins/wpforms-lite/): Widget create for disply the WPForms plugin forms.
+- [TCI UET Contact Forms 7 Widget](https://wordpress.org/plugins/contact-form-7/): Widget create for disply the contact form 7 plugin forms and change the style on live time.
+- [TCI UET Caldera Forms Widget](https://wordpress.org/plugins/caldera-forms/): Widget create for disply the caldera forms plugin forms.
+- [TCI UET Ninja Forms Widget](https://wordpress.org/plugins/ninja-forms/): Widget create for disply the ninja forms plugin forms.
+- [TCI UET Formidable Forms Widget](https://wordpress.org/plugins/formidable/): Widget create for disply the formidable forms plugin forms.
+- [TCI UET WPForms Widget](https://wordpress.org/plugins/wpforms-lite/): Widget create for disply the WPForms plugin forms.
 
 = Third Party Slider Features =
-- [TCI UET Recolution Slider](https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/?ref=Themecat_Info): Widget create for disply the recolution slider plugin slides.
+- [TCI UET Recolution Slider Widget](https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=Themecat_Info): Widget create for disply the recolution slider plugin slides.
+- [TCI UET Layer Slider Widget](https://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin/1362246?ref=Themecat_Info): Widget create for disply the layer slider plugin slides.
+- [TCI UET Master Slider Widget](https://codecanyon.net/item/master-slider-wordpress-responsive-touch-slider/7467925?ref=Themecat_Info): Widget create for disply the master slider plugin slides.
+- [TCI UET Smart Slider Widget](https://wordpress.org/plugins/smart-slider-3/): Widget create for disply the smart slider plugin slides.
 
 = Social Media =
 - TCI Facebook SDK Option
@@ -110,6 +113,11 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 - TCI UET Elementor Template Widget
 
 == Changelog ==
+= 0.0.6 =
+* TCI UET Layer Slider Widget.
+* TCI UET Master Slider Widget.
+* TCI UET Smart Slider Widget.
+
 = 0.0.5 =
 * Add WordPress Widgets With Extra Options Like Title Settings, After Title And Settings And Before Title And Settings.
 * Add TCI UET Internal Url Dynamic Tag.

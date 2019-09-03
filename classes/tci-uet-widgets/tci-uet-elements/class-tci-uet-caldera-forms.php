@@ -59,7 +59,7 @@ class TCI_UET_Caldera_Forms extends Widget_Base {
 	 * @return array Widget categories.
 	 */
 	public function get_categories() {
-		return [ 'tci-widget-plugins' ];
+		return [ 'tci-widget-forms' ];
 	}
 
 	/**

@@ -43,8 +43,12 @@ class TCI_UET_Categories extends TCI_UET_Modules {
 				'title' => __( 'TCI UET Site Widgets', 'tci-uet' ),
 				'icon'  => 'eicon-library-open',
 			],
-			'tci-widget-plugins' => [
-				'title' => __( 'TCI UET Plugins Widgets', 'tci-uet' ),
+			'tci-widget-forms' => [
+				'title' => __( 'TCI UET Form Widgets', 'tci-uet' ),
+				'icon'  => 'eicon-library-open',
+			],
+			'tci-widget-slider' => [
+				'title' => __( 'TCI UET Slider Widgets', 'tci-uet' ),
 				'icon'  => 'eicon-library-open',
 			],
 			'tci-wp-widget'      => [

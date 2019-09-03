@@ -59,7 +59,7 @@ class TCI_UET_Revolution_Slider extends Widget_Base {
 	 * @return array Widget categories.
 	 */
 	public function get_categories() {
-		return [ 'tci-widget-plugins' ];
+		return [ 'tci-widget-slider' ];
 	}
 
 	/**
@@ -116,7 +116,7 @@ class TCI_UET_Revolution_Slider extends Widget_Base {
 			[
 				'label'   => __( 'Slider List', 'tci-uet' ),
 				'type'    => Controls_Manager::SELECT,
-				'options' => tci_rev_slider_table_query(),
+				'options' => tci_uet_rev_slider_table_query(),
 			]
 		);
 
