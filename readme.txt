@@ -12,7 +12,7 @@ License URI: https://www.gnu.org/licenses/gpl-3.0.html
 TCI Ultimate Element Themes is a flexible, open-source themes solution built on WordPress. Create any theme, anywhere and make your way.
 
 == Description ==
-TCI Ultimate Element Themes is used to generate the unlimited themes with the help of elementor plugin. It have all dynamic tags of elementor pro plugin. No need to learn the programing code. Just install the TCI Ultimate Elemento Themes plugin form Wordpress.Org and get start the WordPress theme developemnt. TCI team trying to send the best qualit of work and new options or features. New features and options are coming soon.
+TCI Ultimate Element Themes is used to generate the unlimited themes with the help of elementor plugin. It have all dynamic tags type of elementor pro plugin. No need to learn the programming code. Just install the TCI Ultimate Elemento Themes plugin form WordPress.org and get start the WordPress theme creating. TCI team trying to send the best quality of work and new options or features. New features and options are come in very update.
 
 == Widget List ==
 - TCI UET Post Breadcrumbs: Widget create for display the webiste page loation indicator.
