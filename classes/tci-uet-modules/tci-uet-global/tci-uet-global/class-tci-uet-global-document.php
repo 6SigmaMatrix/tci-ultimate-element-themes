@@ -21,7 +21,7 @@ class TCI_UET_Global_Document extends Library_Document {
 	}
 
 	public static function get_title() {
-		return __( 'Global Widget', 'elementor-pro' );
+		return __( 'Global Widget', 'tci-uet' );
 	}
 
 	public function is_editable_by_current_user() {

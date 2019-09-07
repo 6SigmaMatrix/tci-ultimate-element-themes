@@ -5,9 +5,10 @@
         elementorFrontend.hooks.addAction('frontend/element_ready/section', function ($scope) {
             tci_uet_sticky($scope);
         });
-        // Attach to TCI UET Stciky Widget
+        // Attach to Widgets
         elementorFrontend.hooks.addAction('frontend/element_ready/widget', function ($scope) {
             tci_uet_sticky($scope);
+            tci_uet_light_box($scope);
         });
         // Attach to TCI UET Search Form Widget
         elementorFrontend.hooks.addAction('frontend/element_ready/TCI_UET_Search_Form.default', function ($scope) {
@@ -359,4 +360,56 @@
         });
         new StickyHandler({$element: $scope});
     }
+
+    function tci_uet_light_box($scope) {
+        var TCI_UET_Light_Box = elementorModules.frontend.handlers.Base.extend({
+            bindEvents: function bindEvents() {
+                elementorFrontend.elements.$document.on('click', this.getSettings('selectors.links'), this.runLinkAction.bind(this));
+            },
+            initActions: function initActions() {
+                this.actions = {
+                    lightbox: function lightbox(settings) {
+                        return elementorFrontend.utils.lightbox.showModal(settings);
+                    }
+                }
+            },
+            runAction: function runAction(url) {
+                url = decodeURIComponent(url);
+                var actionMatch = url.match(/action=(.+?) /),
+                    settingsMatch = url.match(/settings=(.+)/);
+                if (!actionMatch) {
+                    return;
+                }
+                var action = this.actions[actionMatch[1]];
+                if (!action) {
+                    return;
+                }
+                var settings = {};
+                if (settingsMatch) {
+                    settings = JSON.parse(atob(settingsMatch[1]));
+                }
+                for (var _len = arguments.length, restArgs = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
+                    restArgs[_key - 1] = arguments[_key];
+                }
+                action.apply(undefined, [settings].concat(restArgs));
+            },
+            runLinkAction: function runLinkAction(event) {
+                event.preventDefault();
+                this.runAction(event.currentTarget.href, event);
+            },
+            onInit: function onInit() {
+                this.bindEvents();
+                this.initActions();
+            },
+            getDefaultSettings: function getDefaultSettings() {
+                return {
+                    selectors: {
+                        links: 'a[href^="#elementor-action"]'
+                    }
+                };
+            }
+        });
+        new TCI_UET_Light_Box({$element: $scope}).onInit();
+    }
+
 })(jQuery);

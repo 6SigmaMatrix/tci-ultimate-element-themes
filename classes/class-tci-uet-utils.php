@@ -269,4 +269,23 @@ class TCI_UET_Utils {
 
 		return $taxonomies;
 	}
+
+	public function get_default_value( $key, $is_array = false ) {
+		$global_token = Utils::get_global_token_data();
+
+		$recently_imported = get_post_meta( get_the_ID(), '_elementor_page_settings', true );
+		if ( isset( $recently_imported['ang_recently_imported'] ) && 'yes' === $recently_imported['ang_recently_imported'] ) {
+			return ( $is_array ) ? [] : '';
+		}
+
+		if ( $global_token && ! empty( $global_token ) ) {
+			$values = json_decode( $global_token, true );
+
+			if ( isset( $values[ $key ] ) && '' !== $values[ $key ] ) {
+				return $values[ $key ];
+			}
+		}
+
+		return ( $is_array ) ? [] : '';
+	}
 }

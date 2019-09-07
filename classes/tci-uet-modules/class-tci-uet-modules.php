@@ -13,7 +13,11 @@ use Elementor\Core\Base\Module;
 
 class TCI_UET_Modules extends Module {
 
-	const TCI_UET_Module_Path = 'classes/tci-uet-modules/';
+	const TCI_UET_Module_Path              = 'classes/tci-uet-modules/';
+
+	const TCI_UET_Source_Type_Current_Post = 'current_post';
+
+	const TCI_UET_Source_Type_Custom       = 'custom';
 
 	public function __construct() {
 
@@ -24,11 +28,13 @@ class TCI_UET_Modules extends Module {
 			//'custom-fonts',
 			'dynamic',
 			//'global',
+			'page-extend',
 			'query-control',
 			'role-manager',
 			'shortcode',
 			'social',
 			//'sticky',
+			//'template',
 			//'theme-builder',
 			'wp-widget',
 		];

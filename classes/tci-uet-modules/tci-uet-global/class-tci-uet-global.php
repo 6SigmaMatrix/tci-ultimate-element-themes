@@ -65,14 +65,14 @@ class TCI_UET_Global extends TCI_UET_Modules {
 		$settings = array_replace_recursive( $settings, [
 			'widget_templates' => $widget_templates_content,
 			'i18n'             => [
-				'unlink'                         => __( 'Unlink', 'elementor-pro' ),
-				'cancel'                         => __( 'Cancel', 'elementor-pro' ),
-				'unlink_widget'                  => __( 'Unlink Widget', 'elementor-pro' ),
-				'global'                         => __( 'Global', 'elementor-pro' ),
-				'dialog_confirm_unlink'          => __( 'This will make the widget stop being global. It\'ll be reverted into being just a regular widget.', 'elementor-pro' ),
-				'global_widget_save_title'       => __( 'Save your widget as a global widget', 'elementor-pro' ),
-				'global_widget_save_description' => __( 'You\'ll be able to add this global widget to multiple areas on your site, and edit it from one single place.', 'elementor-pro' ),
-				'linked_to_global'               => __( 'Linked to Global', 'elementor-pro' ),
+				'unlink'                         => __( 'Unlink', 'tci-uet' ),
+				'cancel'                         => __( 'Cancel', 'tci-uet' ),
+				'unlink_widget'                  => __( 'Unlink Widget', 'tci-uet' ),
+				'global'                         => __( 'Global', 'tci-uet' ),
+				'dialog_confirm_unlink'          => __( 'This will make the widget stop being global. It\'ll be reverted into being just a regular widget.', 'tci-uet' ),
+				'global_widget_save_title'       => __( 'Save your widget as a global widget', 'tci-uet' ),
+				'global_widget_save_description' => __( 'You\'ll be able to add this global widget to multiple areas on your site, and edit it from one single place.', 'tci-uet' ),
+				'linked_to_global'               => __( 'Linked to Global', 'tci-uet' ),
 			],
 		] );
 

@@ -90,7 +90,6 @@ class TCI_UET_Animated_Text extends Widget_Base {
 	public function get_script_depends() {
 		return [
 			'tci-uet-typeit',
-			'tci-uet-frontend',
 		];
 	}
 

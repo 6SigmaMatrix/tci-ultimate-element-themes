@@ -43,6 +43,7 @@ final class TCI_UET_Init {
 		require_once tci_uet_root( 'vendor/autoload.php' );
 		require_once tci_uet_root( 'classes/tci-uet-enqueue/class-tci-uet-enqueue-base.php' );
 		require_once tci_uet_root( 'classes/tci-uet-enqueue/class-tci-uet-enqueue.php' );
+		require_once tci_uet_root( 'classes/class-tci-uet-ajax.php' );
 		require_once tci_uet_root( 'classes/class-tci-uet-utils.php' );
 		require_once tci_uet_root( 'classes/class-tci-uet-elementor-init.php' );
 

@@ -26,7 +26,7 @@ class TCI_UET_Header extends Library_Document {
 	}
 
 	public static function get_title() {
-		return __( 'Header', 'auxin-elements' );
+		return __( 'Header', 'tci-uet' );
 	}
 
 	public function get_css_wrapper_selector() {
@@ -37,7 +37,7 @@ class TCI_UET_Header extends Library_Document {
 		// Move to top as active.
 		$categories = [
 			'tci-widget-site' => [
-				'title'  => __( 'TCI UET Site Widgets', 'auxin-elements' ),
+				'title'  => __( 'TCI UET Site Widgets', 'tci-uet' ),
 				'active' => true,
 			],
 		];

@@ -1,11 +1,11 @@
 ﻿=== TCI Ultimate Element Themes ===
 Contributors: hannanishfaq510
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ashadab59@gmail.com&lc=GB&item_name=Donate%20For%20TCI%20Ultimate%20Element%20Themes%20Plugin&currency_code=USD&no_note=0&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest
-Tags: elementor, addons, dynamic tags, custom css, custom-attribues, landing-page, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
+Tags: elementor, addons, dynamic tags, custom css, custom-attribues, landing-page, smart slider 3, layer slider, revolutation slider, master slider, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 0.0.6
+Stable tag: 0.0.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -14,7 +14,11 @@ TCI Ultimate Element Themes is a flexible, open-source themes solution built on 
 == Description ==
 TCI Ultimate Element Themes is used to generate the unlimited themes with the help of elementor plugin. It have all dynamic tags of elementor pro plugin. No need to learn the programing code. Just install the TCI Ultimate Elemento Themes plugin form Wordpress.Org and get start the WordPress theme developemnt. TCI team trying to send the best qualit of work and new options or features. New features and options are coming soon.
 
-= Features =
+== Widget List ==
+- TCI UET Post Breadcrumbs: Widget create for display the webiste page loation indicator.
+- TCI UET Post Comments: Widget create for display the post commnets.
+- TCI UET Post Navitation: Widget create for display the post next and previous link button.
+- TCI UET Sitemap: Widget create for display the whole website page, post, taxonomies etc as a site map.
 - TCI UET Attributes: Add option for custom attributes in every section, column and widget.
 - TCI UET Animated Heading: Widget create for display the animated heading like h1,h2,.....h6 tag, p tag, span tag.
 - TCI UET Blockquote: Widget create for display the blockquote on any page or post.
@@ -40,7 +44,29 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET Site Logo: Widget create for diaply the website logo.
 - TCI UET WordPress Widget: Add wordpress all widgets.
 
-= Dynamic Tags Features =
+= Third Party Forms =
+- [TCI UET Contact Forms 7 Widget](https://wordpress.org/plugins/contact-form-7/): Widget create for disply the contact form 7 plugin forms and change the style on live time.
+- [TCI UET Caldera Forms Widget](https://wordpress.org/plugins/caldera-forms/): Widget create for disply the caldera forms plugin forms.
+- [TCI UET Ninja Forms Widget](https://wordpress.org/plugins/ninja-forms/): Widget create for disply the ninja forms plugin forms.
+- [TCI UET Formidable Forms Widget](https://wordpress.org/plugins/formidable/): Widget create for disply the formidable forms plugin forms.
+- [TCI UET WPForms Widget](https://wordpress.org/plugins/wpforms-lite/): Widget create for disply the WPForms plugin forms.
+
+= Third Party Slider =
+- [TCI UET Recolution Slider Widget](https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=Themecat_Info): Widget create for disply the recolution slider plugin slides.
+- [TCI UET Layer Slider Widget](https://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin/1362246?ref=Themecat_Info): Widget create for disply the layer slider plugin slides.
+- [TCI UET Master Slider Widget](https://codecanyon.net/item/master-slider-wordpress-responsive-touch-slider/7467925?ref=Themecat_Info): Widget create for disply the master slider plugin slides.
+- [TCI UET Smart Slider Widget](https://wordpress.org/plugins/smart-slider-3/): Widget create for disply the smart slider plugin slides.
+
+
+== Page And Post ==
+- TCI UET Heading Typography
+- TCI UET Heading Size
+- TCI UET Paragraph Typography
+- TCI UET Paragraph Size
+- TCI UET Advance Settings
+
+
+== Dynamic Tags List ==
 - TCI UET Archive Description
 - TCI UET Archive Meta
 - TCI UET Archive Title
@@ -76,21 +102,10 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET User Info
 - TCI UET Internal Url
 
-= Third Party Forms Features =
-- [TCI UET Contact Forms 7 Widget](https://wordpress.org/plugins/contact-form-7/): Widget create for disply the contact form 7 plugin forms and change the style on live time.
-- [TCI UET Caldera Forms Widget](https://wordpress.org/plugins/caldera-forms/): Widget create for disply the caldera forms plugin forms.
-- [TCI UET Ninja Forms Widget](https://wordpress.org/plugins/ninja-forms/): Widget create for disply the ninja forms plugin forms.
-- [TCI UET Formidable Forms Widget](https://wordpress.org/plugins/formidable/): Widget create for disply the formidable forms plugin forms.
-- [TCI UET WPForms Widget](https://wordpress.org/plugins/wpforms-lite/): Widget create for disply the WPForms plugin forms.
-
-= Third Party Slider Features =
-- [TCI UET Recolution Slider Widget](https://codecanyon.net/item/slider-revolution-responsive-wordpress-plugin/2751380?ref=Themecat_Info): Widget create for disply the recolution slider plugin slides.
-- [TCI UET Layer Slider Widget](https://codecanyon.net/item/layerslider-responsive-wordpress-slider-plugin/1362246?ref=Themecat_Info): Widget create for disply the layer slider plugin slides.
-- [TCI UET Master Slider Widget](https://codecanyon.net/item/master-slider-wordpress-responsive-touch-slider/7467925?ref=Themecat_Info): Widget create for disply the master slider plugin slides.
-- [TCI UET Smart Slider Widget](https://wordpress.org/plugins/smart-slider-3/): Widget create for disply the smart slider plugin slides.
 
 = Social Media =
 - TCI Facebook SDK Option
+
 
 == Installation ==
 = Manual installation =
@@ -99,8 +114,10 @@ Manual installation method requires downloading the WooCommerce plugin and uploa
 = Updating =
 Automatic updates should work smoothly, but we still recommend you back up your site.
 
+
 == Frequently Asked Questions ==
 = No Question Found =
+
 
 == Screenshots ==
 - TCI UET Widgets
@@ -112,7 +129,20 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 - TCI UET Generated Shortcode
 - TCI UET Elementor Template Widget
 
+
 == Changelog ==
+= 0.0.7 - 2019-09-07 =
+* DataBase Error Fix.
+* Add TCI UET Post Breadcrumbs Widget
+* Add TCI UET Post Comments Widget
+* Add TCI UET Post Navitation Widget
+* Add TCI UET Sitemap Widget
+* Add TCI UET Heading Typography Options In Page And Post
+* Add TCI UET Heading Size Options In Page And Post
+* Add TCI UET Paragraph Typography Options In Page And Post
+* Add TCI UET Paragraph Size Options In Page And Post
+* Add TCI UET Advance Settings Options In Page And Post
+
 = 0.0.6 =
 * TCI UET Layer Slider Widget.
 * TCI UET Master Slider Widget.
