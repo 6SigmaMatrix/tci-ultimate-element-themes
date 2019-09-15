@@ -1,0 +1,11 @@
+<svg class="tci-uet-shap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 491.58" preserveAspectRatio="none">
+	<g class="tci-uet-shape-fill" style="isolation:isolate">
+		<path class="tci-uet-shape-fill" d="M1000 479.4v-87.96L500 0 0 391.46v87.96l500-335.94 500 335.92z"
+			  opacity=".12"
+			  style="mix-blend-mode:overlay"/>
+		<path class="tci-uet-shape-fill" d="M1000 487.31v-7.91L500 143.48 0 479.42v7.91l500-297.96 500 297.94z"
+			  opacity=".25"
+			  style="mix-blend-mode:overlay"/>
+		<path class="tci-uet-shape-fill" d="M1000 487.31L500 189.37 0 487.33v4.25h1000v-4.27z"/>
+	</g>
+</svg>

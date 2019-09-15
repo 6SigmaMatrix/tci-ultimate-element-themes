@@ -31,23 +31,25 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 		add_action( 'template_redirect', [ $this, 'tci_uet_page_extend_classes' ] );
 		add_action( 'elementor/element/post/section_page_style/after_section_end', [
 			$this,
-			'tci_uet_page_controls',
+			'tci_uet_page_extend_controls',
 		], 10, 2 );
 	}
 
-	public function tci_uet_page_controls( Post $page ) {
-		$this->tci_uet_page_advance_controls( $page );
+	public function tci_uet_page_extend_controls( Post $page ) {
+		$this->tci_uet_page_extend_advance_controls( $page );
 
-		$this->tci_uet_page_paragraph_controls( $page );
+		$this->tci_uet_page_extend_paragraph_controls( $page );
 
-		$this->tci_uet_page_paragraph_size_controls( $page );
+		$this->tci_uet_page_extend_paragraph_size_controls( $page );
 
-		$this->tci_uet_page_heading_controls( $page );
+		$this->tci_uet_page_extend_heading_controls( $page );
 
-		$this->tci_uet_page_heading_size_controls( $page );
+		$this->tci_uet_page_extend_heading_size_controls( $page );
+
+		$this->tci_uet_page_extend_lightbox_controls( $page );
 	}
 
-	private function tci_uet_page_advance_controls( $page ) {
+	private function tci_uet_page_extend_advance_controls( $page ) {
 
 		$page->start_controls_section(
 			TCI_UET_SETTINGS . '_section_page_advanced',
@@ -98,7 +100,7 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 
 	}
 
-	private function tci_uet_page_heading_controls( $page ) {
+	private function tci_uet_page_extend_heading_controls( $page ) {
 
 		$page->start_controls_section(
 			TCI_UET_SETTINGS . '_section_page_heading_style',
@@ -162,7 +164,7 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 
 	}
 
-	private function tci_uet_page_heading_size_controls( $page ) {
+	private function tci_uet_page_extend_heading_size_controls( $page ) {
 
 		$page->start_controls_section(
 			TCI_UET_SETTINGS . '_section_page_heading_size',
@@ -218,7 +220,7 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 
 	}
 
-	private function tci_uet_page_paragraph_controls( $page ) {
+	private function tci_uet_page_extend_paragraph_controls( $page ) {
 
 		$page->start_controls_section(
 			TCI_UET_SETTINGS . '_section_page_paragraph_style',
@@ -270,7 +272,7 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 
 	}
 
-	private function tci_uet_page_paragraph_size_controls( $page ) {
+	private function tci_uet_page_extend_paragraph_size_controls( $page ) {
 
 		$page->start_controls_section(
 			TCI_UET_SETTINGS . '_section_page_paragraph_size',
@@ -311,6 +313,125 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 
 		$page->end_controls_section();
 
+	}
+
+	private function tci_uet_page_extend_lightbox_controls( $page ) {
+		$page->start_controls_section(
+			TCI_UET_SETTINGS . '_section_lightbox_style',
+			[
+				'label' => __( 'TCI UET Lightbox', 'tci-uet' ),
+				'tab'   => Controls_Manager::TAB_STYLE,
+			]
+		);
+
+		$page->add_responsive_control(
+			TCI_UET_SETTINGS . '_lightbox_padding',
+			[
+				'label'      => __( 'Padding', 'tci-uet' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', 'em', 'rem', '%' ],
+				'selectors'  => [
+					'{{WRAPPER}} .dialog-type-lightbox .elementor-lightbox-item'   => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .dialog-type-lightbox .elementor-video-container' => 'padding: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
+			]
+		);
+
+		$page->add_group_control(
+			Group_Control_Border::get_type(),
+			[
+				'name'     => TCI_UET_SETTINGS . '_lightbox_boder',
+				'selector' => '{{WRAPPER}} .dialog-type-lightbox .elementor-lightbox-item img, {{WRAPPER}} .dialog-type-lightbox .elementor-video-container',
+			]
+		);
+
+		$page->add_responsive_control(
+			TCI_UET_SETTINGS . '_lightbox_boder_radius',
+			[
+				'label'      => __( 'Border Radius', 'tci-uet' ),
+				'type'       => Controls_Manager::DIMENSIONS,
+				'size_units' => [ 'px', 'em', 'rem', '%' ],
+				'selectors'  => [
+					'{{WRAPPER}} .dialog-type-lightbox .elementor-lightbox-item img' => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+					'{{WRAPPER}} .dialog-type-lightbox .elementor-video-container'   => 'border-radius: {{TOP}}{{UNIT}} {{RIGHT}}{{UNIT}} {{BOTTOM}}{{UNIT}} {{LEFT}}{{UNIT}};',
+				],
+			]
+		);
+
+		$page->add_control(
+			TCI_UET_SETTINGS . '_lightbox_color',
+			[
+				'label'     => __( 'Color', 'tci-uet' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .dialog-type-lightbox' => 'background-color: {{VALUE}};',
+				],
+			]
+		);
+
+		$page->add_control(
+			TCI_UET_SETTINGS . '_lightbox_ui_color',
+			[
+				'label'     => __( 'UI Color', 'tci-uet' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .dialog-type-lightbox .dialog-lightbox-close-button' => 'color: {{VALUE}};',
+				],
+			]
+		);
+
+		$page->add_control(
+			TCI_UET_SETTINGS . '_lightbox_ui_hover_color',
+			[
+				'label'     => __( 'UI Hover Color', 'tci-uet' ),
+				'type'      => Controls_Manager::COLOR,
+				'selectors' => [
+					'{{WRAPPER}} .dialog-type-lightbox .dialog-lightbox-close-button:hover' => 'color: {{VALUE}};',
+				],
+			]
+		);
+
+		$page->add_control(
+			TCI_UET_SETTINGS . '_lightbox_video_width',
+			[
+				'label'     => __( 'Video Width', 'tci-uet' ),
+				'type'      => Controls_Manager::SLIDER,
+				'default'   => [
+					'unit' => '%',
+				],
+				'range'     => [
+					'%' => [
+						'min' => 20,
+						'max' => 100,
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} .dialog-type-lightbox .elementor-video-container' => 'width: {{SIZE}}{{UNIT}};',
+				],
+			]
+		);
+
+		$page->add_control(
+			TCI_UET_SETTINGS . '_lightbox_image_width',
+			[
+				'label'     => __( 'Image Width', 'tci-uet' ),
+				'type'      => Controls_Manager::SLIDER,
+				'default'   => [
+					'unit' => '%',
+				],
+				'range'     => [
+					'%' => [
+						'min' => 20,
+						'max' => 100,
+					],
+				],
+				'selectors' => [
+					'{{WRAPPER}} .dialog-type-lightbox img.elementor-lightbox-image' => 'width: {{SIZE}}{{UNIT}};',
+				],
+			]
+		);
+
+		$page->end_controls_section();
 	}
 
 	public function tci_uet_page_extend_classes() {

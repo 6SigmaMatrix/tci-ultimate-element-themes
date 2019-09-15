@@ -6,12 +6,13 @@ use Elementor\Modules\DynamicTags\Module;
 use Elementor\Controls_Manager;
 use Elementor\Embed;
 use TCI_UET\TCI_UET_Modules\TCI_UET_Dynamic;
+use TCI_UET\TCI_UET_Utils;
 
 
 class TCI_UET_Lightbox extends Tag {
 
 	public function get_name() {
-		return 'lightbox';
+		return 'TCI_UET_Lightbox';
 	}
 
 	public function get_title() {
@@ -122,18 +123,6 @@ class TCI_UET_Lightbox extends Tag {
 			return;
 		}
 
-		echo $this->create_action_url( 'lightbox', $value );
-	}
-
-	/**
-	 * Create Action URL.
-	 *
-	 * @param string $action
-	 * @param array  $settings Optional.
-	 *
-	 * @return string
-	 */
-	public function create_action_url( $action, array $settings = [] ) {
-		return '#' . rawurlencode( sprintf( 'elementor-action:action=%1$s settings=%2$s', $action, base64_encode( wp_json_encode( $settings ) ) ) );
+		echo TCI_UET_Utils::create_action_url( 'lightbox', $value );
 	}
 }

@@ -23,7 +23,7 @@ class TCI_UET_Facebook_Sdk {
 		add_action( 'wp_head', [ __CLASS__, 'tci_uet_facebook_sdk_enqueue_meta_app_id' ] );
 		add_filter( 'tci_uet/frontend/localize', [ $this, 'tci_uet_facebook_sdk_localize_settings' ] );
 
-		if ( ! empty( $_POST['option_page'] ) && 'elementor' === $_POST['option_page'] ) {
+		if ( ! empty( $_POST['option_page'] ) && 'tci-uet' === $_POST['option_page'] ) {
 			$this->tci_uet_facebook_sdk_validate_sdk();
 		}
 

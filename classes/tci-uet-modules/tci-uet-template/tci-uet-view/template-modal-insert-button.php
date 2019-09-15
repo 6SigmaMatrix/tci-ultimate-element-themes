@@ -7,7 +7,7 @@
 	<# if ( 'valid' === window.PremiumTempsData.license.status || ! pro ) { #>
 	<button class="elementor-template-library-template-action tci-uet-template-insert elementor-button elementor-button-success">
 		<i class="eicon-file-download"></i><span class="elementor-button-title"><?php
-			echo __( 'Insert', 'tci-uet-addons-for-elementor' );
+			echo __( 'Insert', 'tci-uet' );
 			?></span>
 	</button>
 	<# } else { #>

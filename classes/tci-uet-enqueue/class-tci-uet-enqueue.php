@@ -3,7 +3,7 @@
  * TCI UET Enqueue
  *
  * @package TCI Ultimate Element Themes
- * @version 0.0.2
+ * @version 0.0.5
  */
 namespace TCI_UET\TCI_UET_Enqueue_Base;
 
@@ -14,7 +14,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Constructer
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function __construct() {
@@ -24,7 +24,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Register Style Files
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_register_style() {
@@ -41,7 +41,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Register Script Files
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_register_script() {
@@ -60,7 +60,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Print Editor Style Files
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_editor_style() {
@@ -77,7 +77,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Print Editor Script Files
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_editor_script() {
@@ -94,7 +94,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Print Admin Script
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_admin_script() {
@@ -110,7 +110,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Localize
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_localize_frontend_script() {
@@ -125,7 +125,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Localize
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_localize_editor_script() {
@@ -140,7 +140,7 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Editor Preview
 	 *
-	 * @since  0.0.1
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_editor_preview_style() {
@@ -154,11 +154,11 @@ class TCI_UET_Enqueue extends TCI_UET_Enqueue_Base {
 	/**
 	 * Frontend Enqueue
 	 *
-	 * @since  0.0.2
+	 * @since  0.0.5
 	 * @access public
 	 */
 	public function tci_uet_enqueue_base_frontend_script() {
-		wp_enqueue_script('tci-uet-frontend');
 		wp_enqueue_style('tci-uet-frontend');
+		wp_enqueue_script('tci-uet-frontend');
 	}
 }

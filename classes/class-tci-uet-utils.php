@@ -288,4 +288,16 @@ class TCI_UET_Utils {
 
 		return ( $is_array ) ? [] : '';
 	}
+
+	/**
+	 * Create Action URL.
+	 *
+	 * @param string $action
+	 * @param array  $settings Optional.
+	 *
+	 * @return string
+	 */
+	public static function create_action_url( $action, array $settings = [] ) {
+		return '#' . rawurlencode( sprintf( 'elementor-action:action=%1$s settings=%2$s', $action, base64_encode( wp_json_encode( $settings ) ) ) );
+	}
 }

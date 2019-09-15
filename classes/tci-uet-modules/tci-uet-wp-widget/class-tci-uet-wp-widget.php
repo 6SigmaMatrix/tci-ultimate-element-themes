@@ -146,7 +146,7 @@ class TCI_UET_Wp_Widget extends \WP_Widget {
 				$style = '';
 			}
 			?>
-			<a target="_blank" class="elementor-edit-template"<?php echo $style; ?> href="<?php echo esc_url( add_query_arg( 'elementor', '', get_permalink( $instance[ TCI_UET_SETTINGS . 'template_id' ] ) ) ); ?>">
+			<a target="_blank" class="elementor-edit-template"<?php echo $style; ?> href="<?php echo esc_url( add_query_arg( 'tci-uet', '', get_permalink( $instance[ TCI_UET_SETTINGS . 'template_id' ] ) ) ); ?>">
 				<i class="fa fa-pencil"></i> <?php echo __( 'Edit Template', 'tci-uet' ); ?>
 			</a>
 		</p>

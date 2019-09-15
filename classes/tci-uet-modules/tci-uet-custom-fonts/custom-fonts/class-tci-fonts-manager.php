@@ -494,7 +494,7 @@ class TCI_Fonts_Manager {
 		$categories['settings']['items']['custom-fonts'] = [
 			'title'    => __( 'Custom Fonts', 'tci-uet' ),
 			'url'      => admin_url( 'edit.php?post_type=' . self::CPT ),
-			'keywords' => [ 'custom', 'fonts', 'elementor' ],
+			'keywords' => [ 'custom', 'fonts', 'tci-uet' ],
 		];
 
 		return $categories;

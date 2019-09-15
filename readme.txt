@@ -1,11 +1,11 @@
 ﻿=== TCI Ultimate Element Themes ===
 Contributors: hannanishfaq510
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ashadab59@gmail.com&lc=GB&item_name=Donate%20For%20TCI%20Ultimate%20Element%20Themes%20Plugin&currency_code=USD&no_note=0&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest
-Tags: elementor, addons, dynamic tags, custom css, custom-attribues, landing-page, smart slider 3, layer slider, revolutation slider, master slider, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
+Tags: elementor, addons, dynamic tags, woocommerce, custom css, custom-attribues, landing-page, smart slider 3, layer slider, revolutation slider, master slider, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 0.0.7
+Stable tag: 0.0.8
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -15,6 +15,7 @@ TCI Ultimate Element Themes is a flexible, open-source themes solution built on 
 TCI Ultimate Element Themes is used to generate the unlimited themes with the help of elementor plugin. It have all dynamic tags type of elementor pro plugin. No need to learn the programming code. Just install the TCI Ultimate Elemento Themes plugin form WordPress.org and get start the WordPress theme creating. TCI team trying to send the best quality of work and new options or features. New features and options are come in very update.
 
 == Widget List ==
+- TCI UET Lightbox Video: Widget create for display the videos in lightbox popup.
 - TCI UET Post Breadcrumbs: Widget create for display the webiste page loation indicator.
 - TCI UET Post Comments: Widget create for display the post commnets.
 - TCI UET Post Navitation: Widget create for display the post next and previous link button.
@@ -57,6 +58,60 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - [TCI UET Master Slider Widget](https://codecanyon.net/item/master-slider-wordpress-responsive-touch-slider/7467925?ref=Themecat_Info): Widget create for disply the master slider plugin slides.
 - [TCI UET Smart Slider Widget](https://wordpress.org/plugins/smart-slider-3/): Widget create for disply the smart slider plugin slides.
 
+= WooCommerce =
+- TCI UET WC Cart: Widget create for show the cart page of woocommerce.
+- TCI UET WC Categories: Widget create for show the woocommerce products categories list.
+- TCI UET WC My Account: Widget create for show the my account page of woocommerce.
+- TCI UET WC Order Track: Widget create for show the order track page of woocommerce.
+- TCI UET WC Products: Widget create for show the list of woocommerce products.
+- TCI UET WC Single Product: Widget create for show the single product of woocommerce.
+
+= Separator =
+- TCI UET Amplifier Waves High
+- TCI UET Amplifier Waves Low
+- TCI UET Arrow
+- TCI UET Arrow Negative
+- TCI UET Book
+- TCI UET Book Negative
+- TCI UET Clouds
+- TCI UET Clouds Negative
+- TCI UET Cristl Cap
+- TCI UET Curve
+- TCI UET Curve Asymmetrical
+- TCI UET Curve Asymmetrical Negative
+- TCI UET Curve Asymmetrical Return
+- TCI UET Curve Negative
+- TCI UET Drops
+- TCI UET Drops Negative
+- TCI UET Fire Angle high
+- TCI UET Fire Angle Low
+- TCI UET Fire Dots
+- TCI UET Fire Triangle
+- TCI UET Flowers Cap
+- TCI UET Mount Trail
+- TCI UET Mountains
+- TCI UET Opacity Fan
+- TCI UET Opacity Tilt
+- TCI UET Opacity Tilt Fan
+- TCI UET Pramids Mountains
+- TCI UET Rectangles
+- TCI UET Sea Waves
+- TCI UET Split
+- TCI UET Split Negative
+- TCI UET Tilt
+- TCI UET Triangle
+- TCI UET Triangle Asymmetrical
+- TCI UET Triangle Asymmetrical Negative
+- TCI UET Triangle Fest
+- TCI UET Tringle Layerify
+- TCI UET Triangle Negative
+- TCI UET Waves Brush
+- TCI UET Waves
+- TCI UET Waves Asymmetrical
+- TCI UET Waves Negative
+- TCI UET Waves Pattern
+- TCI UET Word Div
+- TCI UET Zig Zag
 
 == Page And Post ==
 - TCI UET Heading Typography
@@ -64,6 +119,7 @@ TCI Ultimate Element Themes is used to generate the unlimited themes with the he
 - TCI UET Paragraph Typography
 - TCI UET Paragraph Size
 - TCI UET Advance Settings
+- TCI UET Lightbox
 
 
 == Dynamic Tags List ==
@@ -131,6 +187,62 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 
 
 == Changelog ==
+= 0.0.8 - 2019-09-15 =
+* Fix Dynamic Tag Lightbox
+* Add TCI UET Lightbox Options In Page And Post
+* Add TCI UET Lightbox Video Widget
+* Add TCI UET WC Cart Widget
+* Add TCI UET WC Categories Widget
+* Add TCI UET WC My Account Widget
+* Add TCI UET WC Order Track Widget
+* Add TCI UET WC Products Widget
+* Add TCI UET WC Single Product Widget
+* Add TCI UET Amplifier Waves High Widget
+* Add TCI UET Amplifier Waves Low Widget
+* Add TCI UET Arrow Widget
+* Add TCI UET Arrow Negative Widget
+* Add TCI UET Book Widget
+* Add TCI UET Book Negative Widget
+* Add TCI UET Clouds Widget
+* Add TCI UET Clouds Negative Widget
+* Add TCI UET Cristl Cap Widget
+* Add TCI UET Curve Widget
+* Add TCI UET Curve Asymmetrical Widget
+* Add TCI UET Curve Asymmetrical Negative Widget
+* Add TCI UET Curve Asymmetrical Return Widget
+* Add TCI UET Curve Negative Widget
+* Add TCI UET Drops Widget
+* Add TCI UET Drops Negative Widget
+* Add TCI UET Fire Angle high Widget
+* Add TCI UET Fire Angle Low Widget
+* Add TCI UET Fire Dots Widget
+* Add TCI UET Fire Triangle Widget
+* Add TCI UET Flowers Cap Widget
+* Add TCI UET Mount Trail Widget
+* Add TCI UET Mountains Widget
+* Add TCI UET Opacity Fan Widget
+* Add TCI UET Opacity Tilt Widget
+* Add TCI UET Opacity Tilt Fan Widget
+* Add TCI UET Pramids Mountains Widget
+* Add TCI UET Rectangles Widget
+* Add TCI UET Sea Waves Widget
+* Add TCI UET Split Widget
+* Add TCI UET Split Negative Widget
+* Add TCI UET Tilt Widget
+* Add TCI UET Triangle Widget
+* Add TCI UET Triangle Asymmetrical Widget
+* Add TCI UET Triangle Asymmetrical Negative Widget
+* Add TCI UET Triangle Fest Widget
+* Add TCI UET Tringle Layerify Widget
+* Add TCI UET Triangle Negative Widget
+* Add TCI UET Waves Brush Widget
+* Add TCI UET Waves Widget
+* Add TCI UET Waves Asymmetrical Widget
+* Add TCI UET Waves Negative Widget
+* Add TCI UET Waves Pattern Widget
+* Add TCI UET Word Div Widget
+* Add TCI UET Zig Zag Widget
+
 = 0.0.7 - 2019-09-07 =
 * DataBase Error Fix.
 * Add TCI UET Post Breadcrumbs Widget

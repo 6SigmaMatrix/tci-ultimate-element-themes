@@ -364,16 +364,18 @@
     function tci_uet_light_box($scope) {
         var TCI_UET_Light_Box = elementorModules.frontend.handlers.Base.extend({
             bindEvents: function bindEvents() {
+
                 elementorFrontend.elements.$document.on('click', this.getSettings('selectors.links'), this.runLinkAction.bind(this));
             },
             initActions: function initActions() {
                 this.actions = {
                     lightbox: function lightbox(settings) {
+
                         return elementorFrontend.utils.lightbox.showModal(settings);
                     }
                 }
             },
-            runAction: function runAction(url) {
+            runAction: function runAction(url, event) {
                 url = decodeURIComponent(url);
                 var actionMatch = url.match(/action=(.+?) /),
                     settingsMatch = url.match(/settings=(.+)/);
@@ -391,10 +393,12 @@
                 for (var _len = arguments.length, restArgs = Array(_len > 1 ? _len - 1 : 0), _key = 1; _key < _len; _key++) {
                     restArgs[_key - 1] = arguments[_key];
                 }
+
                 action.apply(undefined, [settings].concat(restArgs));
             },
             runLinkAction: function runLinkAction(event) {
                 event.preventDefault();
+
                 this.runAction(event.currentTarget.href, event);
             },
             onInit: function onInit() {

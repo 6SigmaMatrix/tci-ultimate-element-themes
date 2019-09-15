@@ -8,7 +8,7 @@
 <script type="text/html" id="tmpl-tci-uet-error">
 	<div class="elementor-library-error">
 		<div class="elementor-library-error-message"><?php
-			echo __( 'Template couldn\'t be loaded. Please activate you license key before.', 'tci-uet-addons-for-elementor' );
+			echo __( 'Template couldn\'t be loaded. Please activate you license key before.', 'tci-uet' );
 			?></div>
 		<div class="elementor-library-error-link"><?php
 			/*printf(

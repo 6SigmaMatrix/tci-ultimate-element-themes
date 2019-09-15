@@ -1,0 +1,5 @@
+<svg class="tci-uet-shap" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 350" preserveAspectRatio="none">
+	<path class="tci-uet-shape-fill" d="M0 200v100l500-200 500 200V200L500 0 0 200z"/>
+	<path class="tci-uet-shape-fill" d="M0 350h250l250-100 250 100h250L500 150 0 350z"/>
+	<path class="tci-uet-shape-fill" d="M375 350h250l-125-50-125 50z"/>
+</svg>

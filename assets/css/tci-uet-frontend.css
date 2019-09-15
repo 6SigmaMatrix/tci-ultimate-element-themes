@@ -1814,8 +1814,73 @@ search-form {
 	-ms-flex-flow: row wrap;
 	flex-flow: row wrap
 }
+
 /*--- TCI UET Lightbox ---*/
 .dialog-widget-content.dialog-lightbox-widget-content {
 	top: 0 !important;
 	left: 0 !important;
+}
+
+/*--- TCI UET Lightbox Video---*/
+.elementor-widget-TCI_UET_Lightbox_Video .tci-uet-lightbox-image-wrapper {
+	position: relative;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 300px;
+	width: 100%;
+}
+
+.elementor-widget-TCI_UET_Lightbox_Video .tci-uet-lightbox-image-wrapper .elementor-custom-embed-play i {
+	opacity: 1;
+}
+
+/*--- Heading Size---*/
+.elementor-widget-heading .elementor-heading-title.elementor-size-small {
+	font-size: 15px;
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-medium {
+	font-size: 19px;
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-large {
+	font-size: 29px;
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-xl {
+	font-size: 39px;
+}
+
+.elementor-widget-heading .elementor-heading-title.elementor-size-xxl {
+	font-size: 59px;
+}
+
+/*--- TCI UET ZigZag Separator ---*/
+.tci-uet-shap-wrapper {
+	overflow: hidden;
+	line-height: 0;
+}
+
+.tci-uet-shap-wrapper.tci-uet-shap-align-center {
+	text-align: center;
+}
+
+.tci-uet-shap-wrapper.tci-uet-shap-align-left {
+	text-align: left;
+}
+
+.tci-uet-shap-wrapper.tci-uet-shap-align-right {
+	text-align: right;
+}
+
+.tci-uet-shap-wrapper > .tci-uet-shap-inner {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+}
+
+.tci-uet-shap-wrapper > .tci-uet-shap-inner > svg.tci-uet-shap {
+	position: absolute;
+	top: 0;
 }

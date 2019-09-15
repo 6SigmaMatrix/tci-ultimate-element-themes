@@ -3,7 +3,7 @@
  * TCI UET Functions file
  *
  * @package TCI Ultimate Element Themes
- * @version 0.0.6
+ * @version 0.0.7
  */
 tci_uet_exit();
 
@@ -17,6 +17,17 @@ use Elementor\Scheme_Color;
 use Elementor\Group_Control_Typography;
 use Elementor\Scheme_Typography;
 use Elementor\Group_Control_Text_Shadow;
+
+/**
+ * Plugin shapes
+ *
+ * @since  0.0.8
+ */
+function tci_uet_shap( $name = '' ) {
+	$shape = wp_remote_get( tci_uet_uri( "assets/shapes/{$name}" ) );
+
+	return apply_filters( "tci-uet-shape-{$name}", $shape['body'] );
+}
 
 /**
  * Plugin directory security

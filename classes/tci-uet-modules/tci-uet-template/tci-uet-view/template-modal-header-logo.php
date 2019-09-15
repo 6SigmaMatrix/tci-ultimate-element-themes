@@ -8,7 +8,7 @@
     <img src="<?php echo PREMIUM_ADDONS_URL . 'admin/images/tci-uet-addons-logo.png'; ?>">
 </span>
 	<span class="tci-uet-template-modal-header-logo-label">
-    <?php echo __( 'Premium Templates', 'tci-uet-addons-for-elementor' ); ?>
+    <?php echo __( 'Premium Templates', 'tci-uet' ); ?>
 </span>
 </script>
 
