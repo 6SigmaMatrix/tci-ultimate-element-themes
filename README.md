@@ -1,13 +1,13 @@
 ﻿# TCI Ultimate Element Themes #
-**Contributors:** [Themecat Info](https://profiles.wordpress.org/themecat007/), [Abdul Hanan Ishfaq](https://profiles.wordpress.org/hannanishfaq510/)
-**Donate link:** [Click To Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ashadab59@gmail.com&lc=GB&item_name=Donate%20For%20TCI%20Ultimate%20Element%20Themes%20Plugin&currency_code=USD&no_note=0&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest)
-**Tags:** elementor, addons, dynamic tags, woocommerce, custom css, custom-attribues, landing-page, smart slider 3, layer slider, revolutation slider, master slider, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
-**Requires PHP:** 7.0
-**Requires at least:** 5.0
-**Tested up to:** 5.2
-**Stable tag:** 0.0.8
-**License:** GPLv3
-**License URI:** https://www.gnu.org/licenses/gpl-3.0.html
+**Contributors:** [Themecat Info](https://profiles.wordpress.org/themecat007/), [Abdul Hanan Ishfaq](https://profiles.wordpress.org/hannanishfaq510/)  
+**Donate link:** [Click To Donate](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ashadab59@gmail.com&lc=GB&item_name=Donate%20For%20TCI%20Ultimate%20Element%20Themes%20Plugin&currency_code=USD&no_note=0&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest)  
+**Tags:** elementor, addons, dynamic tags, woocommerce, custom css, custom-attribues, landing-page, smart slider 3, layer slider, revolutation slider, master slider, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder  
+**Requires PHP:** 7.0  
+**Requires at least:** 5.0  
+**Tested up to:** 5.2  
+**Stable tag:** 0.0.8  
+**License:** GPLv3  
+**License URI:** https://www.gnu.org/licenses/gpl-3.0.html  
 
 TCI Ultimate Element Themes is a flexible, open-source themes solution built on WordPress. Create any theme, anywhere and make your way.
 
