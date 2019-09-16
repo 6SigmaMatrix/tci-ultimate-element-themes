@@ -3,7 +3,7 @@
  * TCI UET Page Extend module class
  *
  * @package TCI Ultimate Element Themes
- * @version 0.0.1
+ * @version 0.0.2
  */
 namespace TCI_UET\TCI_UET_Modules;
 
@@ -29,7 +29,7 @@ class TCI_UET_Page_Extend extends TCI_UET_Modules {
 	 */
 	public function __construct() {
 		add_action( 'template_redirect', [ $this, 'tci_uet_page_extend_classes' ] );
-		add_action( 'elementor/element/post/section_page_style/after_section_end', [
+		add_action( 'elementor/element/wp-post/section_page_style/after_section_end', [
 			$this,
 			'tci_uet_page_extend_controls',
 		], 10, 2 );

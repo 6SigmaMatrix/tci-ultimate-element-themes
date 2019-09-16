@@ -5,7 +5,7 @@
  * created themes.
  * Plugin URI: https://demo.themecat.org/tci-ultimate-elementor-themes
  * Author: Themecat_Info
- * Version: 0.0.8
+ * Version: 0.0.9
  * Author URI: https://themecat.org/
  * Text Domain: tci-uet
  * Requires PHP: 7.0

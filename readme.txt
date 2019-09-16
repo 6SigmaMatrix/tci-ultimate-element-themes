@@ -1,5 +1,5 @@
 ﻿=== TCI Ultimate Element Themes ===
-Contributors: hannanishfaq510
+Contributors: themecat007, hannanishfaq510
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=ashadab59@gmail.com&lc=GB&item_name=Donate%20For%20TCI%20Ultimate%20Element%20Themes%20Plugin&currency_code=USD&no_note=0&bn=PP-DonationsBF:btn_donateCC_LG.gif:NonHostedGuest
 Tags: elementor, addons, dynamic tags, woocommerce, custom css, custom-attribues, landing-page, smart slider 3, layer slider, revolutation slider, master slider, page builder, editor, landing page, drag-and-drop, visual editor, wysiwyg, design, maintenance mode, coming soon, under construction, website builder, landing page builder, front-end builder
 Requires PHP: 7.0
@@ -187,6 +187,9 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 
 
 == Changelog ==
+= 0.0.8 - 2019-09-16 =
+* Fix Elementor Hook Error.
+
 = 0.0.8 - 2019-09-15 =
 * Fix Dynamic Tag Lightbox
 * Add TCI UET Lightbox Options In Page And Post
