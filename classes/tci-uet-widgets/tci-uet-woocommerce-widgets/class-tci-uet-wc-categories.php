@@ -3,7 +3,7 @@
  * TCI UET Categories class
  *
  * @package TCI Ultimate Element Themes
- * @version 0.0.5
+ * @version 0.0.2
  */
 namespace TCI_UET\TCI_UET_Widgets\TCI_UET_Woocommerce_Widgets;
 
@@ -93,6 +93,25 @@ class TCI_UET_WC_Categories extends Widget_Base {
 	 * @access protected
 	 */
 	protected function _register_controls() {
+		if ( ! function_exists( 'WC' ) ) {
+			$this->start_controls_section(
+				TCI_UET_SETTINGS . '_wc_warning',
+				[
+					'label' => __( 'Warning!', 'tci-uet' ),
+				]
+			);
+			$this->add_control(
+				TCI_UET_SETTINGS . '_wc_warning_text',
+				[
+					'type'            => Controls_Manager::RAW_HTML,
+					'raw'             => __( '<strong>WooCommerce</strong> is not installed/activated on your site. Please install and activate <strong>WooCommerce</strong> first.', 'tci-uet' ),
+					'content_classes' => 'tci-uet-warning',
+				]
+			);
+			$this->end_controls_section();
+
+			return false;
+		}
 	}
 
 	/**
@@ -103,6 +122,9 @@ class TCI_UET_WC_Categories extends Widget_Base {
 	 * @access protected
 	 */
 	protected function render() {
+		if ( ! function_exists( 'WC' ) ) {
+			return;
+		}
 		echo do_shortcode( "[product_categories]" );
 	}
 }

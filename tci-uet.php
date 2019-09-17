@@ -5,12 +5,14 @@
  * created themes.
  * Plugin URI: https://demo.themecat.org/tci-ultimate-elementor-themes
  * Author: Themecat_Info
- * Version: 0.0.9
+ * Version: 0.1
  * Author URI: https://themecat.org/
  * Text Domain: tci-uet
  * Requires PHP: 7.0
  * Requires at least: 5.0
  * Tested up to: 5.2
+ * WC requires at least: 3.0.0
+ * WC tested up to: 3.7
  * License: GPLv3
  * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  * Domain Path: /languages/
@@ -59,7 +61,7 @@ define( 'TCI_UET', 'tci_uet_uet_main_' );
  *
  * @since  0.0.5
  */
-define( 'TCI_UET_VERSION', '0.0.7' );
+define( 'TCI_UET_VERSION', '0.1' );
 
 /**
  * Plugin file get form directory

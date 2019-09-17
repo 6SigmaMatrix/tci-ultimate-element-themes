@@ -5,7 +5,9 @@ Tags: elementor, addons, dynamic tags, woocommerce, custom css, custom-attribues
 Requires PHP: 7.0
 Requires at least: 5.0
 Tested up to: 5.2
-Stable tag: 0.0.8
+WC requires at least: 3.0.0
+WC tested up to: 3.7
+Stable tag: 0.1
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -187,6 +189,9 @@ Automatic updates should work smoothly, but we still recommend you back up your 
 
 
 == Changelog ==
+= 0.1 - 2019-09-17 =
+* Fix WooCommerce Errors.
+
 = 0.0.8 - 2019-09-16 =
 * Fix Elementor Hook Error.
 
